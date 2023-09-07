@@ -4,6 +4,9 @@ import argparse
 from datetime import datetime
 from dateutil import parser
 from newspaper import Article
+from newspaper import Config
+from newspaper import Source
+
 import feedparser
 import tempfile,zipfile
 import csv,json,yaml,toml
@@ -20,7 +23,16 @@ import html
 
 
 def download_article_content(article_url, news_date):
-    article = Article(article_url, keep_article_html=True)
+    user_agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:78.0) Gecko/20100101 Firefox/78.0'
+    config = Config()
+    # src_url = Source(article_url)
+
+    config.browser_user_agent = user_agent
+    config.language = 'ja'
+    config.request_timeout = 10
+    config.number_threads = 10
+
+    article = Article(article_url, config=config, keep_article_html=True)
     print(article)
     # article.set_html(article.html.encode('utf-8', 'ignore').decode('utf-8'))
     article.download()
@@ -72,7 +84,7 @@ def get_metadata(article_url):
 
 
 
-def generate_hugo_posts(site_no, site_name, article_urls, output_dir, news_date):
+def generate_hugo_posts(rss_urls, site_no, site_name, article_urls, output_dir, news_date):
     articles_list = []
     now = datetime.now()
 
@@ -82,6 +94,7 @@ def generate_hugo_posts(site_no, site_name, article_urls, output_dir, news_date)
     # alt_image_path = Path('static/images/alt.png')
     # alt_image_copy_path = os.path.join(output_image_dir, 'alt.png')
     # copyfile(alt_image_path, alt_image_copy_path)
+    print(article_urls)
 
     for index, article_url in enumerate(article_urls):
         entry = {}
@@ -173,8 +186,9 @@ def generate_hugo_posts(site_no, site_name, article_urls, output_dir, news_date)
                 f.write(f'![]({article["image_url"]})\n\n')
                 f.write(body)
 
-            print(f"New Hugo post '{file_name}' for {site_name} generated in {output_dir}.")
+            print(f"🟢 New {site_name} in {output_dir}/{file_name}.", end='\n\n')
         except Exception as e:
+            print(f"🔴 Failed {site_name}.", end='\n\n')
             print(e)
 
 def safe_yaml(text):
@@ -226,6 +240,15 @@ def remove_old_hugo_posts(output_dir, max_posts=1000):
         print(f"Removed old Hugo post: {file_to_delete}")
 
 
+def random_sort_dict(input_dict):
+    random_keys = list(input_dict.keys())
+    random.shuffle(random_keys)
+
+    shuffled_dict = {}
+    for key in random_keys:
+        shuffled_dict[key] = input_dict[key]
+
+    return shuffled_dict
 
 class Interface:
 
@@ -326,14 +349,28 @@ def main():
     parser.add_argument("-o", "--output_dir", nargs="?", default="content/draft", help="Output directory for Hugo posts")
     parser.add_argument("--news_date", default=datetime.now().strftime('%Y-%m-%dT%H:%M:%S%z'), help="News date")
     parser.add_argument("-l", "--limit", type=int, default=1, help="Limit the number of articles to process")
+    parser.add_argument("-sl", "--site_limit", type=int, default=1, help="[WIP] Limit of the number of websites to process")
+    parser.add_argument("-r", "--random", action="store_true", help="Get random site order")
+    parser.add_argument("-s", "--shuffle", action="store_true", help="[WIP] Shuffle output articles order")
+    parser.usage = f"""
+    1. Execute the process without input file (use dict in script)
+
+        python scripts/run.py -o content/post
+
+    2. Specify both input and output files
+
+        python scripts/run.py -i data/feeds.json -o content/post -l 3
+    """
 
     args = parser.parse_args()
 
     rss_urls = {
-        "kanpo": "https://kanpo-kanpo.blog.jp/index.rdf",
     }
 
     limit = 1
+
+    if args.limit:
+        limit = args.limit
 
     if args.input_file:
         rss_df = Interface.read_file(args.input_file)
@@ -341,17 +378,28 @@ def main():
 
         for item in df:
             rss_urls[item["name"]] = item["url"]
-            limit = item["limit"]
 
-    if args.limit:
-        limit = args.limit
+            # if args.limit:
+                # rss_urls["limit"] = args.limit
+            # else:
+            #     rss_urls["limit"]  = item["limit"]
+
+
+    if args.shuffle:
+        pass
+
+    if args.random:
+        rss_urls = random_sort_dict(rss_urls)
+
+        for key, value in rss_urls.items():
+            print(f"{key}: {value}")
 
     os.makedirs(args.output_dir, exist_ok=True)
 
     for site_no, (site_name, rss_url) in enumerate(rss_urls.items()):
         feed = feedparser.parse(rss_url)
         article_urls = [entry.link for entry in feed.entries[:limit]]
-        generate_hugo_posts(site_no, site_name, article_urls, args.output_dir, args.news_date)
+        generate_hugo_posts(rss_urls, site_no, site_name, article_urls, args.output_dir, args.news_date)
 
     remove_old_hugo_posts(args.output_dir, max_posts=1000)
 
