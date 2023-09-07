@@ -1,0 +1,310 @@
+{
+  "items": [
+    {
+      "category": "entertainment",
+      "tag": [],
+      "source": "rss",
+      "url": "https://www.ent-mabui.jp/rss/",
+      "language": "ja",
+      "limit": 1,
+      "name": "www.ent-mabui.jp"
+    },
+    {
+      "category": "entertainment",
+      "tag": [],
+      "source": "rss",
+      "url": "https://natalie.mu/comic/feed/news",
+      "language": "ja",
+      "limit": 1,
+      "name": "natalie.mu"
+    },
+    {
+      "category": "entertainment",
+      "tag": [],
+      "source": "rss",
+      "url": "https://natalie.mu/music/feed/news",
+      "language": "ja",
+      "limit": 1,
+      "name": "natalie.mu"
+    },
+    {
+      "category": "entertainment",
+      "tag": [],
+      "source": "rss",
+      "url": "https://natalie.mu/stage/feed/news",
+      "language": "ja",
+      "limit": 1,
+      "name": "natalie.mu"
+    },
+    {
+      "category": "entertainment",
+      "tag": [],
+      "source": "rss",
+      "url": "https://natalie.mu/owarai/feed/news",
+      "language": "ja",
+      "limit": 1,
+      "name": "natalie.mu"
+    },
+    {
+      "category": "entertainment",
+      "tag": [],
+      "source": "rss",
+      "url": "https://natalie.mu/eiga/feed/news",
+      "language": "ja",
+      "limit": 1,
+      "name": "natalie.mu"
+    },
+    {
+      "category": "entertainment",
+      "tag": [],
+      "source": "rss",
+      "url": "https://natalie.mu/dvd/feed/news",
+      "language": "ja",
+      "limit": 1,
+      "name": "natalie.mu"
+    },
+    {
+      "category": "entertainment",
+      "tag": [],
+      "source": "rss",
+      "url": "https://natalie.mu/cm/feed/news",
+      "language": "ja",
+      "limit": 1,
+      "name": "natalie.mu"
+    },
+    {
+      "category": "news",
+      "tag": [],
+      "source": "rss",
+      "url": "https://www3.nhk.or.jp/rss/news/cat1.xml",
+      "language": "ja",
+      "limit": 1,
+      "name": "www3.nhk.or.jp"
+    },
+    {
+      "category": "search",
+      "tag": [],
+      "source": "rss",
+      "url": "https://gigazine.net/news/rss_2.0/",
+      "language": "ja",
+      "limit": 1,
+      "name": "gigazine.net"
+    },
+    {
+      "category": "search",
+      "tag": [],
+      "source": "rss",
+      "url": "https://getnews.jp/feed",
+      "language": "ja",
+      "limit": 1,
+      "name": "getnews.jp"
+    },
+    {
+      "category": "search",
+      "tag": [],
+      "source": "rss",
+      "url": "https://tech.nikkeibp.co.jp/rss/index.rdf",
+      "language": "ja",
+      "limit": 1,
+      "name": "tech.nikkeibp.co.jp"
+    },
+    {
+      "category": "search",
+      "tag": [],
+      "source": "rss",
+      "url": "https://buzzap.jp/feed",
+      "language": "ja",
+      "limit": 1,
+      "name": "buzzap.jp"
+    },
+    {
+      "category": "search",
+      "tag": [],
+      "source": "rss",
+      "url": "https://news.goo.ne.jp/rss/topstories/sports/index.rdf",
+      "language": "ja",
+      "limit": 1,
+      "name": "news.goo.ne.jp"
+    },
+    {
+      "category": "search",
+      "tag": [],
+      "source": "rss",
+      "url": "https://www.lifehacker.jp/index.xml",
+      "language": "ja",
+      "limit": 1,
+      "name": "www.lifehacker.jp"
+    },
+    {
+      "category": "search",
+      "tag": [],
+      "source": "rss",
+      "url": "https://gigazine.net/index.php?/news/rss_2.0/",
+      "language": "ja",
+      "limit": 1,
+      "name": "gigazine.net"
+    },
+    {
+      "category": "search",
+      "tag": [],
+      "source": "rss",
+      "url": "https://gigazine.net/news/rss_2.0/",
+      "language": "ja",
+      "limit": 1,
+      "name": "gigazine.net"
+    },
+    {
+      "category": "search",
+      "tag": [],
+      "source": "rss",
+      "url": "https://www.buzzfeed.com/jp/index.xml",
+      "language": "ja",
+      "limit": 1,
+      "name": "www.buzzfeed.com"
+    },
+    {
+      "category": "search",
+      "tag": [],
+      "source": "rss",
+      "url": "https://www.crank-in.net/news/rss.xml",
+      "language": "ja",
+      "limit": 1,
+      "name": "www.crank-in.net"
+    },
+    {
+      "category": "search",
+      "tag": [],
+      "source": "rss",
+      "url": "https://www.moguravr.com/feed/",
+      "language": "ja",
+      "limit": 1,
+      "name": "www.moguravr.com"
+    },
+    {
+      "category": "social",
+      "tag": [],
+      "source": "rss",
+      "url": "https://note.com/rss",
+      "language": "ja",
+      "limit": 1,
+      "name": "note.com"
+    },
+    {
+      "category": "tech",
+      "tag": [],
+      "source": "rss",
+      "url": "https://japan.cnet.com/rss/index.rdf",
+      "language": "ja",
+      "limit": 1,
+      "name": "japan.cnet.com"
+    },
+    {
+      "category": "tech",
+      "tag": [],
+      "source": "rss",
+      "url": "https://www.gizmodo.jp/index.xml",
+      "language": "ja",
+      "limit": 1,
+      "name": "www.gizmodo.jp"
+    },
+    {
+      "category": "tech",
+      "tag": [],
+      "source": "rss",
+      "url": "https://rss.itmedia.co.jp/rss/2.0/ait.xml",
+      "language": "ja",
+      "limit": 1,
+      "name": "rss.itmedia.co.jp"
+    },
+    {
+      "category": "tech",
+      "tag": [],
+      "source": "rss",
+      "url": "https://www.lifehacker.jp/index.xml",
+      "language": "ja",
+      "limit": 1,
+      "name": "www.lifehacker.jp"
+    },
+    {
+      "category": "tech",
+      "tag": [],
+      "source": "rss",
+      "url": "https://www.publickey1.jp/atom.xml",
+      "language": "ja",
+      "limit": 1,
+      "name": "www.publickey1.jp"
+    },
+    {
+      "category": "tech",
+      "tag": [],
+      "source": "rss",
+      "url": "https://markezine.jp/rss/new/index.xml",
+      "language": "ja",
+      "limit": 1,
+      "name": "markezine.jp"
+    },
+    {
+      "category": "tech",
+      "tag": [],
+      "source": "rss",
+      "url": "https://tech.nikkeibp.co.jp/rss/index.rdf",
+      "language": "ja",
+      "limit": 1,
+      "name": "tech.nikkeibp.co.jp"
+    },
+    {
+      "category": "tech",
+      "tag": [],
+      "source": "rss",
+      "url": "https://ascii.jp/rss.xml",
+      "language": "ja",
+      "limit": 1,
+      "name": "ascii.jp"
+    },
+    {
+      "category": "tech",
+      "tag": [],
+      "source": "rss",
+      "url": "https://getnews.jp/feed/extlink.rss",
+      "language": "ja",
+      "limit": 1,
+      "name": "getnews.jp"
+    },
+    {
+      "category": "tech",
+      "tag": [],
+      "source": "rss",
+      "url": "https://gigazine.net/index.php?/news/rss_2.0/",
+      "language": "ja",
+      "limit": 1,
+      "name": "gigazine.net"
+    },
+    {
+      "category": "tech",
+      "tag": [],
+      "source": "rss",
+      "url": "https://qiita.com/popular-items/feed",
+      "language": "ja",
+      "limit": 1,
+      "name": "qiita.com"
+    },
+    {
+      "category": "tech",
+      "tag": [],
+      "source": "rss",
+      "url": "https://techfeed.io/feeds/categories/all",
+      "language": "ja",
+      "limit": 1,
+      "name": "techfeed.io"
+    },
+    {
+      "category": "travel",
+      "tag": [],
+      "source": "rss",
+      "url": "https://www.fnn.jp/sitemap.xml",
+      "language": "ja",
+      "limit": 1,
+      "name": "www.fnn.jp"
+    }
+  ]
+}

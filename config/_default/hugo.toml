@@ -1,0 +1,95 @@
+baseurl = "/"
+title = "ファル速"
+theme = "custom-themes"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = [ "\\.Rmd$", "\\.Rmarkdown$", "_cache$",]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+hasCJKLanguage = true
+enableEmoji = true
+paginate = 24
+
+[permalinks]
+post = "/post/:year/:month/:day/:slug/"
+
+[params]
+description = "A website built through Hugo and blogdown."
+footer = "&copy; [](https://github.com/) 2023 | [広告掲載について]() | [特定商取引法に基づく表記]() | [サイトポリシー]() "
+summary_length = 300
+logo = "/static/images/logo.svg"
+icon = 'pdf'
+
+[params.text]
+back = "&larr; ホームへ戻る"
+edit = "関連ページへ進む &rarr;"
+truncated = "&hellip;"
+
+[markup.highlight]
+codeFences = false
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params.banner]
+    src = "/images/logo.svg"
+    alt = "logo"
+
+
+# [menu]
+# [[menu.main]]
+# name = "ホーム"
+# url = ""
+# weight = 1
+# icon = "rss"
+
+# [[menu.main]]
+# name = "タグ"
+# url = "tags/"
+# weight = 2
+# icon = "rss"
+
+# [[menu.main]]
+# name = "カテゴリ"
+# url = "categories/"
+# weight = 3
+# icon = "rss"
+
+# [[menu.main]]
+# name = "サイト情報"
+# url = "about/"
+# weight = 4
+# icon = "rss"
+
+# [[menu.main]]
+# name = "フィード"
+# url = "index.xml"
+# weight = 5
+# icon = "rss"
+
+
+languageCode = "ja-jp"
+defaultContentLanguage = 'ja'
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.ja]
+    # contentDir = 'content/ja'
+    disabled = false
+    languageCode = 'ja-JP'
+    languageDirection = 'ltr'
+    languageName = 'Japan'
+    title = 'Project Documentation'
+    weight = 1
+    [languages.ja.params]
+      subtitle = 'Reference, Tutorials, and Explanations'
+  [languages.en]
+    # contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'Project Documentation'
+    weight = 2
+    [languages.en.params]
+      subtitle = 'Reference, Tutorials, and Explanations'
