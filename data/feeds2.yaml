@@ -146,3 +146,52 @@ items:
     language: ja
     limit: 1
     name: rabitsokuhou
+  - category: entertainment
+    tag: []
+    source: rss
+    url: http://mofful.livedoor.blog/index.rdf
+    language: ja
+    limit: 1
+    name: mofful
+  - category: entertainment
+    tag: []
+    source: rss
+    url: https://kasegeru.blog.jp/index.rdf
+    language: ja
+    limit: 1
+    name: kasegeru
+  - category: entertainment
+    tag: []
+    source: rss
+    url: https://idobata-kaigis.com/rssfeed/feed.xml
+    language: ja
+    limit: 1
+    name: idobata-kaigis
+  - category: entertainment
+    tag: []
+    source: rss
+    url: https://bokumato.site/feed/
+    language: ja
+    limit: 1
+    name: bokumato
+  - category: entertainment
+    tag: []
+    source: rss
+    url: http://totalwar.doorblog.jp/index.rdf
+    language: ja
+    limit: 1
+    name: mofful
+  - category: entertainment
+    tag: []
+    source: rss
+    url: http://2fg.blog.jp/index.rdf
+    language: ja
+    limit: 1
+    name: 2fg
+  - category: entertainment
+    tag: []
+    source: rss
+    url: http://kankeinai.blog.jp/index.rdf
+    language: ja
+    limit: 1
+    name: kankeinai

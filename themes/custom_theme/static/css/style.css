@@ -9,6 +9,7 @@ body {
 
 .container {
   hyphens: auto;
+  overflow: auto;
 }
 
 .container-main {
@@ -62,10 +63,17 @@ main {
 }
 
 .bannar-img {
-  display: flex;
+  position: absolute;
   align-items: center;
   justify-content: center;
-  height: 100px;
+}
+
+.bannar-img-r {
+  right: 0;
+  top: 0;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner .text {
@@ -261,6 +269,8 @@ article {
   background: #666;
   margin-top: auto;
   padding: 1em 0;
+  bottom: 0;
+  position: sticky;
 }
 
 .footer, .footer a {
@@ -429,8 +439,11 @@ ul {
 }
 
 .announcement {
+  font-size: 1.2rem;
   text-align: center;
   color: red;
+  text-align: left;
+  margin-left: 25%;
 }
 
 .latest h2,

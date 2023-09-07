@@ -4,9 +4,13 @@
     <div class="tags">
     <ul>
         {{ $tags := .Site.Taxonomies.tags }}
+        {{ $count := 0 }}
         {{ range $tagName, $tag := $tags }}
+          {{ if lt $count 100 }}
             <li><a href="{{ printf "/tags/%s" $tagName | urlize }}">{{ $tagName }}</a></li>
         {{ end }}
+        {{ $count = add $count 1 }}
+      {{ end }}
     </div>
     </ul>
 </div>
