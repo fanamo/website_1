@@ -20,7 +20,8 @@ from urllib.parse import urlparse
 from shutil import copyfile
 import html
 
-
+from janome.tokenizer import Tokenizer
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 def download_article_content(article_url, news_date):
     user_agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:78.0) Gecko/20100101 Firefox/78.0'
@@ -163,6 +164,22 @@ def generate_hugo_posts(rss_urls, site_no, site_name, article_urls, output_dir, 
             title = safe_yaml(article['title'])
             body = safe_yaml(html.unescape(article['body']))
 
+            if not article["tags"]:
+                print(article["tags"])
+                filter_dict = {
+                    r'(.)\1+':'',
+                    r'\d+': '',
+                    r'([ぁ-んー])\1+': '',
+                    r'[ぁ-んー]{1,2}': '',
+                    r'[ァ-ンー]{1,2}': '',
+                    r'\b[a-zA-Z]{1,2}\b': '',
+                    # 'いる': '',
+                    # 'ある': '',
+                    # 'です': '',
+                }
+
+                tags = nlp_process(article["title"], filter_dict)
+
             with open(file_path, 'w', encoding='utf-8') as f:
             # with open(file_path, 'w', encoding='cp932') as f:
 
@@ -175,7 +192,7 @@ def generate_hugo_posts(rss_urls, site_no, site_name, article_urls, output_dir, 
                 f.write(f'author: {article["author"]}\n')
                 # f.write(f'categories: {article["category_urls"]}\n')
                 f.write(f'categories: {article["categories"]}\n')
-                f.write(f'tags: {article["tags"]}\n')
+                f.write(f'tags: {tags}\n')
                 f.write(f'keywords: {article["keywords"]}\n')
                 f.write(f'thumbnail: "{article["image_url"]}"\n')
                 f.write(f'popular: {article["popular"]}\n')
@@ -193,13 +210,14 @@ def generate_hugo_posts(rss_urls, site_no, site_name, article_urls, output_dir, 
 
 def safe_yaml(text):
     char_mapping = {
-        # ':': '\\:',
-        # '-': '\\-',
-        # '&': '\\&',
-        # "'": "\\'",
-        # '"': '\\"',
-        # '!': '\\!',
-        # '|': '\\|',
+        # ':': '\:',
+        # '-': '\-',
+        # '&': '\&',
+        # "'": "\'",
+        # '"': '\"',
+        # '!': '\!',
+        # '|': '\|',
+        '"':'\'',
         '\n': ' ',
         '\u3000': ' ',
     }
@@ -229,6 +247,28 @@ def safe_yaml(text):
 
     return text
 
+def nlp_process(title, filter_dict, num_keywords=3):
+    # 形態素解析
+    tokenizer = Tokenizer()
+    tokens = [token.surface for token in tokenizer.tokenize(title)]
+
+    # 除外語フィルターを適用
+    for pattern, replacement in filter_dict.items():
+        tokens = [token if not re.search(pattern, token) else replacement for token in tokens]
+
+    # 形態素をスペースで連結
+    filtered_title = ' '.join(tokens)
+
+    # TF-IDFベクトル化
+    tfidf_vectorizer = TfidfVectorizer()
+    tfidf_matrix = tfidf_vectorizer.fit_transform([filtered_title])
+
+    # TF-IDF値が高いトークンを取得
+    feature_names = tfidf_vectorizer.get_feature_names_out()
+    sorted_indices = (-tfidf_matrix.toarray()[0]).argsort()[:num_keywords]  # 密な行列に変換してargsortを適用
+    keywords = [feature_names[idx] for idx in sorted_indices]
+
+    return keywords
 
 def remove_old_hugo_posts(output_dir, max_posts=1000):
     files = os.listdir(output_dir)
