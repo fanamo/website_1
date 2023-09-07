@@ -1,6 +1,6 @@
 baseurl = "/"
-title = "ファル速"
-theme = "custom-themes"
+title = ""
+theme = "custom_theme"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = [ "\\.Rmd$", "\\.Rmarkdown$", "_cache$",]
