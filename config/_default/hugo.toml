@@ -1,5 +1,5 @@
 baseurl = "/"
-title = ""
+title = "ファル速"
 theme = "custom_theme"
 googleAnalytics = ""
 disqusShortname = ""
@@ -15,7 +15,7 @@ post = "/post/:year/:month/:day/:slug/"
 
 [params]
 description = "A website built through Hugo and blogdown."
-footer = "&copy; [](https://github.com/) 2023 | [広告掲載について]() | [特定商取引法に基づく表記]() | [サイトポリシー]() "
+footer = "&copy; [Falcon]() 2023 | [利用規約](terms/) | [サイトポリシー](site_policy/) | [プライバシーポリシー](privacy_policy/) | [広告掲載](adv/) "
 summary_length = 300
 logo = "/static/images/logo.svg"
 icon = 'pdf'
@@ -35,13 +35,12 @@ unsafe = true
     src = "/images/logo.svg"
     alt = "logo"
 
-
-# [menu]
-# [[menu.main]]
-# name = "ホーム"
-# url = ""
-# weight = 1
-# icon = "rss"
+[menu]
+[[menu.main]]
+name = "ホーム"
+url = ""
+weight = 1
+icon = "rss"
 
 # [[menu.main]]
 # name = "タグ"
@@ -55,17 +54,17 @@ unsafe = true
 # weight = 3
 # icon = "rss"
 
-# [[menu.main]]
-# name = "サイト情報"
-# url = "about/"
-# weight = 4
-# icon = "rss"
+[[menu.main]]
+name = "サイト情報"
+url = "about/"
+weight = 4
+icon = "rss"
 
-# [[menu.main]]
-# name = "フィード"
-# url = "index.xml"
-# weight = 5
-# icon = "rss"
+[[menu.main]]
+name = "RSS"
+url = "index.xml"
+weight = 5
+icon = "rss"
 
 
 languageCode = "ja-jp"
