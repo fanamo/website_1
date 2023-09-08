@@ -137,6 +137,8 @@ def generate_hugo_posts(rss_urls, site_no, site_name, article_urls, output_dir, 
             article['latest'] = random.choice([True, False])
             article['trend'] = random.choice([True, False])
             article['featured'] = random.choice([True, False])
+            article['views'] = random.randint(1, 2000)
+            article['comments'] = random.randint(1, 200)
 
 
             # Download image
@@ -195,12 +197,17 @@ def generate_hugo_posts(rss_urls, site_no, site_name, article_urls, output_dir, 
                 f.write(f'tags: {tags}\n')
                 f.write(f'keywords: {article["keywords"]}\n')
                 f.write(f'thumbnail: "{article["image_url"]}"\n')
+                f.write(f'images: "{article["images"]}"\n')
+                f.write(f'videos: "{article["movies"]}"\n')
                 f.write(f'popular: {article["popular"]}\n')
                 f.write(f'latest: {article["latest"]}\n')
                 f.write(f'trend: {article["trend"]}\n')
                 f.write(f'featured: "{article["featured"]}"\n')
+                f.write(f'views: {article["views"]}\n')
+                f.write(f'comments: {article["comments"]}\n')
                 f.write(f'---\n\n')
                 f.write(f'![]({article["image_url"]})\n\n')
+                f.write(f'![]({article["movies"]})\n\n')
                 f.write(body)
 
             print(f"🟢 New {site_name} in {output_dir}/{file_name}.", end='\n\n')
@@ -225,7 +232,9 @@ def safe_yaml(text):
         text = text.replace(char, replacement)
 
     text = re.sub(r'\s+', ' ', text)
-    text = re.sub(r'\n+', '\n\n', text)
+    text = re.sub(r'\n{2,}', '\n', text)
+    text = re.sub(r'(<br>){2,}', '<br>', text)
+
 
     exclusion_words = {
     }
@@ -405,6 +414,7 @@ def main():
     args = parser.parse_args()
 
     rss_urls = {
+        'newmatosoku': 'https://newmatosoku.com/feed/youtuber/rss2.xml'
     }
 
     limit = 1
