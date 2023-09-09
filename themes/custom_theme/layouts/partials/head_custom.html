@@ -1,7 +1,16 @@
 <div class="head-meta">
     {{ if .IsPage }}
-      <span><a href="{{ relURL .Site.BaseURL }}">{{ (default "Back to Home" .Site.Params.text.back) | safeHTML }}</a></span>
-      {{ if .Params.date }}<span class="date">{{ .Date.Format "2006-01-02 23:00" }}</span>{{ end }}
+    <span><a href="{{ relURL .Site.BaseURL }}">{{ (default "Back to Home" .Site.Params.text.back) | safeHTML }}</a></span>
+    {{ if .Params.date }}
+    <span class="date">
+        {{ $date := .Date.Format "2006-01-02 15:04" }}
+        <time itemprop="datePublished" datetime="{{ .Date }}">{{ $date }}</time>
+        <!-- {{ if .Lastmod }}
+            {{ $lastmod := .Lastmod.Format "2006-01-02 15:04" }}
+            <p>Edited on: {{ $lastmod }}</p>
+        {{ end }} -->
+    </span>
+    {{ end }}
       {{ if .File.Path }}
       {{ $RmdFile := (print .File.BaseFileName ".Rmd") }}
       {{ if (where (readDir (print "content/" .File.Dir)) "Name" $RmdFile) }}
@@ -16,7 +25,7 @@
       {{ end }}
     {{ else }}
       <span>{{ $.Scratch.Get "Title" }}</span>
-      <span>{{ .Site.Params.text.last_update }}{{ now.Format "2006-01-02" }}</span>
+      <span>{{ .Site.Params.text.last_update }}{{ now.Format "2006-01-02 15:04" }}</span>
       {{ $pages := .Pages }}
       {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
       {{ $paginator := .Paginate (where $pages "Section" "!=" "") }}

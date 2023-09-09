@@ -31,7 +31,7 @@
     {{ if .Params.author }}
     <div class="author">{{ partial "author_names.html" . }}</div>
     {{ end }}
-    <div class="date">{{ .PublishDate | time.Format "2006-1-2 3:04 "  }}</div>
+    <div class="date">{{ .PublishDate | time.Format "2006-01-02 15:04"  }}</div>
 </div>
 <div class="summary">
 {{ with .Description }}

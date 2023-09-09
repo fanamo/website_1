@@ -178,6 +178,14 @@ main {
   color: #666;
 }
 
+.categories li {
+  margin-right: 10px;
+  background-color: #ffaa00;
+  color: #fff;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
 .tags {
   position: relative;
   bottom: 0;
