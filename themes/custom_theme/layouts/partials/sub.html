@@ -1,44 +1,42 @@
 <aside class="container-sub">
 
-    <div class="scroll-box">
-        <h2>カテゴリ</h2>
-        <div class="categories">
-            <ul class="dropdown-menu">
-            {{ $categories := .Site.Taxonomies.categories }}
-            {{ range $categoryName, $category := $categories }}
-                <li><a href="{{ printf "/categories/%s" $categoryName | urlize }}">{{ $categoryName }}</a></li>
-            {{ end }}
-            </ul>
-        </div>
-      </div>
-    <div>
-
-    <div class="scroll-box">
-        <h2>トレンド</h2>
-        <div class="tags">
-          <ul>
-            {{ $tags := .Site.Taxonomies.tags }}
-            {{ $count := 0 }}
-            {{ range $tagName, $tag := $tags }}
-              {{ if lt $count 50 }}
-                <li><a href="{{ printf "/tags/%s" $tagName | urlize }}">{{ $tagName }}</a></li>
-              {{ end }}
-              {{ $count = add $count 1 }}
-            {{ end }}
-          </ul>
-        </div>
-      </div>
-    </div>
-
-<div class="related">
-    {{ $related := .Site.RegularPages.Related . | first 5 }}
-    {{ with $related }}
-    <h3>関連記事</h3>
-    <ul>
-        {{ range $related }}
-        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+<div class="scroll-box-sub">
+    <h2>カテゴリ</h2>
+    <div class="categories">
+        <ul class="dropdown-menu">
+        {{ $categories := .Site.Taxonomies.categories }}
+        {{ range $categoryName, $category := $categories }}
+            <li><a href="{{ printf "/categories/%s" $categoryName | urlize }}">{{ $categoryName }}</a></li>
         {{ end }}
-    </ul>
-    {{ end }}
+        </ul>
+    </div>
+</div>
+<div class="scroll-box-sub">
+    <h2>トレンド</h2>
+    <div class="tags">
+        <ul>
+        {{ $tags := .Site.Taxonomies.tags }}
+        {{ $count := 0 }}
+        {{ range $tagName, $tag := $tags }}
+            {{ if lt $count 50 }}
+            <li><a href="{{ printf "/tags/%s" $tagName | urlize }}">{{ $tagName }}</a></li>
+            {{ end }}
+            {{ $count = add $count 1 }}
+        {{ end }}
+        </ul>
+    </div>
+</div>
+<div class="scroll-box-sub">
+    <div class="related">
+        {{ $related := .Site.RegularPages.Related . | first 5 }}
+        {{ with $related }}
+        <h3>関連記事</h3>
+        <ul>
+            {{ range $related }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+        </ul>
+        {{ end }}
+    </div>
 </div>
 </aside>

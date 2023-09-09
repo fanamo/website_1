@@ -21,7 +21,7 @@ body {
 }
 
 .header {
-  background: #ffdd00;
+  background: #ffdd00ee;
   top: 0;
   left: 0;
   width: 100%;
@@ -83,6 +83,16 @@ main {
   max-height: 100px;
   overflow-y: auto;
   border: 1px solid #ccc;
+  margin: .2em auto .2em 0;
+  padding: 10px;
+}
+
+.scroll-box-sub {
+  font-size: 0.86em;
+  line-height: 1em;
+  max-height: 200px;
+  overflow-y: auto;
+  margin: 1em auto 1em 0;
   padding: 10px;
 }
 /* .scroll-box li:nth-child(even) {
@@ -182,7 +192,7 @@ main {
   margin-right: 10px;
   background-color: #ffaa00;
   color: #fff;
-  padding: 0 10px;
+  padding: 10px 15px;
   border-radius: 10px;
 }
 
@@ -204,7 +214,7 @@ main {
   margin-right: 10px;
   background-color: #ffdd00;
   color: #fff;
-  padding: 0 10px;
+  padding: 10px 15px;
   border-radius: 10px;
 }
 
@@ -523,4 +533,38 @@ ul {
     width: 100%;
     padding: 0;
   }
+}
+
+.scroll-button {
+  position: fixed;
+  width: 64px;
+  height: 64px;
+  padding:0%;
+  background-color: #ffdd00;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  z-index: 999;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.scroll-up-button {
+  bottom: 160px;
+  right: 19px;
+  position: fixed;
+  float: right;
+}
+
+.scroll-down-button {
+  bottom: 90px;
+  right: 19px;
+  position: fixed;
+  float: right;
+}
+
+.scroll-button svg {
+  width: 100%;
+  height: 100%;
+  fill: white;
 }
