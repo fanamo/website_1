@@ -427,7 +427,7 @@ def main():
         df = rss_df['items']
 
         for item in df:
-            rss_urls[item["name"]] = item["url"]
+            rss_urls[item["name"]] = item["feed_url"][0] # TODO: multi feed for 1 name
 
             # if args.limit:
                 # rss_urls["limit"] = args.limit

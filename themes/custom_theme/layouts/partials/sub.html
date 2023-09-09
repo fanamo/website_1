@@ -1,6 +1,6 @@
 <aside class="container-sub">
 <div>
-    <h2>トレンド</h2>
+    <h2>トレンドタグ</h2>
     <div class="tags">
     <ul>
         {{ $tags := .Site.Taxonomies.tags }}
@@ -15,4 +15,15 @@
     </ul>
 </div>
 
+<div class="related">
+    {{ $related := .Site.RegularPages.Related . | first 5 }}
+    {{ with $related }}
+    <h3>関連記事</h3>
+    <ul>
+        {{ range $related }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+    </ul>
+    {{ end }}
+</div>
 </aside>
