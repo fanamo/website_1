@@ -395,7 +395,7 @@ class Interface:
 def main():
     parser = argparse.ArgumentParser(description="Generate Hugo posts from article URLs.")
     parser.add_argument("-i", "--input_file", nargs="?", const=None, help="Path to the input JSON file")
-    parser.add_argument("-o", "--output_dir", nargs="?", default="content/draft", help="Output directory for Hugo posts")
+    parser.add_argument("-o", "--output_dir", nargs="?", default="content/post", help="Output directory for Hugo posts")
     parser.add_argument("--news_date", default=datetime.now().strftime('%Y-%m-%dT%H:%M:%S%z'), help="News date")
     parser.add_argument("-l", "--limit", type=int, default=1, help="Limit the number of articles to process")
     parser.add_argument("-sl", "--site_limit", type=int, default=1, help="[WIP] Limit of the number of websites to process")
