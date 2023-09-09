@@ -9,6 +9,7 @@ footnotereturnlinkcontents = "↩"
 hasCJKLanguage = true
 enableEmoji = true
 paginate = 24
+enableGitInfo = true
 
 [permalinks]
 post = "/post/:year/:month/:day/:slug/"
@@ -21,8 +22,8 @@ logo = "/static/images/logo.svg"
 icon = 'pdf'
 
 [params.text]
-back = "&larr; ホームへ戻る"
-edit = "関連ページへ進む &rarr;"
+back = "&larr; 戻る"
+edit = "進む &rarr;"
 truncated = "&hellip;"
 
 [markup.highlight]
@@ -68,27 +69,30 @@ icon = "rss"
 
 
 languageCode = "ja-jp"
-defaultContentLanguage = 'ja'
+defaultContentLanguage = "ja"
 defaultContentLanguageInSubdir = true
 
 [languages]
-  [languages.ja]
-    # contentDir = 'content/ja'
-    disabled = false
-    languageCode = 'ja-JP'
-    languageDirection = 'ltr'
-    languageName = 'Japan'
-    title = 'Project Documentation'
-    weight = 1
-    [languages.ja.params]
-      subtitle = 'Reference, Tutorials, and Explanations'
   [languages.en]
     # contentDir = 'content/en'
     disabled = false
     languageCode = 'en-US'
     languageDirection = 'ltr'
     languageName = 'English'
-    title = 'Project Documentation'
+    title = 'Falcon News'
     weight = 2
     [languages.en.params]
       subtitle = 'Reference, Tutorials, and Explanations'
+  [languages.ja]
+    # contentDir = 'content/ja'
+    disabled = false
+    languageCode = 'ja-JP'
+    languageDirection = 'ltr'
+    languageName = 'Japan'
+    title = 'ファル速'
+    weight = 1
+    [languages.ja.params]
+      subtitle = 'エンタメニュース・話題の総合プラットフォーム'
+
+[frontmatter]
+  lastmod = ':fileModTime'
