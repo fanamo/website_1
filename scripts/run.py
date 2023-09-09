@@ -92,7 +92,7 @@ def generate_hugo_posts(rss_urls, site_no, site_name, article_urls, output_dir, 
     output_image_dir = os.path.join(output_dir, '../images')
     os.makedirs(output_image_dir, exist_ok=True)
 
-    # alt_image_path = Path('static/images/alt.png')
+    # alt_image_path = Path('assets/images/alt.png')
     # alt_image_copy_path = os.path.join(output_image_dir, 'alt.png')
     # copyfile(alt_image_path, alt_image_copy_path)
     print(article_urls)
@@ -113,7 +113,8 @@ def generate_hugo_posts(rss_urls, site_no, site_name, article_urls, output_dir, 
             elif entry.publish_date is not None:
                 article['publish_date'] = entry.publish_date.strftime('%Y-%m-%dT%H:%M:%S%z')
             else:
-                article['publish_date'] = now.strftime('%Y-%m-%dT%H:%M:%S%z')
+                # article['publish_date'] = now.strftime('%Y-%m-%dT%H:%M:%S%z')
+                article['publish_date'] = ''
 
             # ts = parser.parse(article['publish_date']).strftime('%y%m%d')
             ts = parser.parse(article['publish_date']).timestamp()
@@ -189,7 +190,9 @@ def generate_hugo_posts(rss_urls, site_no, site_name, article_urls, output_dir, 
                 f.write(f'title: "{title}"\n')
                 f.write(f'full_url: "{article["full_url"]}"\n')
                 f.write(f'short_url: "{article["short_url"]}"\n')
+                f.write(f'language: "ja"\n')
                 f.write(f'date: {article["publish_date"]}\n')
+                f.write(f'lastmod: \n')
                 f.write(f'draft: false\n')
                 f.write(f'author: {article["author"]}\n')
                 # f.write(f'categories: {article["category_urls"]}\n')
