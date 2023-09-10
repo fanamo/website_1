@@ -326,14 +326,6 @@ items:
   limit: 1
   feed_url:
   - https://news-matome.sakura.ne.jp/feed
-- name: antena-iine
-  url: https://antena-iine.com/
-  categories: エンタメ
-  tags: []
-  locale: ja-jp
-  limit: 1
-  feed_url:
-  - https://antena-iine.com/feed
 - name: neko-dan
   url: https://neko-dan.net/
   categories: エンタメ
