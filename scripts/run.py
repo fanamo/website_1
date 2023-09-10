@@ -268,8 +268,8 @@ def safe_yaml(text):
         text = text.replace(char, replacement)
 
     text = re.sub(r'\s+', ' ', text)
-    text = re.sub(r'\n{2,}', '\n', text)
-    text = re.sub(r'(<br>){2,}', '<br>', text)
+    text = re.sub(r'\n{2,}?', '\n', text)
+    text = re.sub(r'(<br>){2,}?', '<br>', text)
 
 
     exclusion_words = {
