@@ -19,6 +19,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 from shutil import copyfile
 import html
+import tldextract
 
 from janome.tokenizer import Tokenizer
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -45,25 +46,40 @@ def download_article_content(article_url, news_date):
     # article.parse()
     # if article.publish_date.strftime('%Y-%m-%dT%H:%M:%S%z') == str(news_date):
 
-
     return article
 
+
+def extract_article_id(url):
+    parsed_url = urlparse(url)
+    path_segments = parsed_url.path.strip('/').split('/')
+    article_id = path_segments[-1] if path_segments else None
+
+    return article_id
+
+def generate_filename(site_name, url):
+    article_id = extract_article_id(url)
+    # timestamp = datetime.now().strftime('%Y%m%d%H%M%S')
+    file_name = f"{site_name.split('.')[0]}_{article_id}.md"
+    return file_name
 
 def get_metadata(article_url):
     try:
         response = requests.get(article_url)
         soup = BeautifulSoup(response.text, 'html.parser')
 
+        # document_id_meta =  soup.find('meta', attrs={'name': 'id'})
+        published_time_meta = soup.find('meta', property='article:published_time')['content'] if soup.find('meta', property='article:published_time') else None
+        categories_meta = soup.find_all('meta', property='article:section')
+        tags_meta = soup.find_all('meta', property='article:tag')
+        keywords_meta = soup.find('meta', attrs={'name': 'keywords'})
+
         metadata = {
-            'published_time': soup.find('meta', property='article:published_time')['content'] if soup.find('meta', property='article:published_time') else None,
+            # 'document_id': document_id_meta,
+            'published_time': published_time_meta,
             'categories': [],
             'tags': [],
             'keywords': [],
         }
-
-        categories_meta = soup.find_all('meta', property='article:section')
-        tags_meta = soup.find_all('meta', property='article:tag')
-        keywords_meta = soup.find('meta', attrs={'name': 'keywords'})
 
         for meta in categories_meta:
             metadata['categories'].extend([cat.strip() for cat in re.split(r'[/,]', meta['content'])])
@@ -74,6 +90,7 @@ def get_metadata(article_url):
         if keywords_meta:
             metadata['keywords'] = [kw.strip() for kw in re.split(r'[/,]', keywords_meta['content'])]
 
+
         metadata['categories'] = metadata['categories'][:3]
         metadata['tags'] = metadata['tags'][:3]
         metadata['keywords'] = metadata['keywords'][:3]
@@ -82,8 +99,6 @@ def get_metadata(article_url):
     except Exception as e:
         print(f"Error retrieving metadata for {article_url}: {e}")
         return {}
-
-
 
 def generate_hugo_posts(rss_urls, site_no, site_name, article_urls, output_dir, news_date):
     articles_list = []
@@ -100,10 +115,15 @@ def generate_hugo_posts(rss_urls, site_no, site_name, article_urls, output_dir, 
     for index, article_url in enumerate(article_urls):
         entry = {}
         article = {}
+        ts = now.timestamp()
+        file_name = generate_filename(site_name, article_url)
+        file_path = os.path.join(output_dir, file_name)
         try:
             entry = download_article_content(article_url, news_date)
 
             metadata = get_metadata(article_url)
+            print(metadata)
+            # article['document_id'] = metadata['document_id']
             article['categories'] = metadata['categories']
             article['tags'] = metadata['tags']
             article['keywords'] = metadata['keywords']
@@ -113,15 +133,7 @@ def generate_hugo_posts(rss_urls, site_no, site_name, article_urls, output_dir, 
             elif entry.publish_date is not None:
                 article['publish_date'] = entry.publish_date.strftime('%Y-%m-%dT%H:%M:%S%z')
             else:
-                # article['publish_date'] = now.strftime('%Y-%m-%dT%H:%M:%S%z')
                 article['publish_date'] = ''
-
-            # ts = parser.parse(article['publish_date']).strftime('%y%m%d')
-            ts = parser.parse(article['publish_date']).timestamp()
-
-            file_name = f"{ts}_{site_no :04d}_{index + 1 :03d}.md"
-            file_path = os.path.join(output_dir, file_name)
-
 
             article['short_url'] = site_name
             article['full_url'] = article_url
@@ -134,12 +146,13 @@ def generate_hugo_posts(rss_urls, site_no, site_name, article_urls, output_dir, 
             article['images'] = entry.images
             article['movies'] = entry.movies
 
-            article['popular'] = random.choice([True, False])
-            article['latest'] = random.choice([True, False])
-            article['trend'] = random.choice([True, False])
-            article['featured'] = random.choice([True, False])
+            article['popular'] = random.randint(1, 2000)
+            article['latest'] = random.randint(1, 2000)
+            article['trend'] = random.randint(1, 2000)
+            article['featured'] = random.randint(1, 2000)
             article['views'] = random.randint(1, 2000)
             article['comments'] = random.randint(1, 200)
+            article['weight'] = random.randint(1, 20)
 
 
             # Download image
@@ -165,7 +178,10 @@ def generate_hugo_posts(rss_urls, site_no, site_name, article_urls, output_dir, 
             articles_list.append(article)
 
             title = safe_yaml(article['title'])
+            # images = safe_yaml(article['images'])
+            # videos = safe_yaml(article['movies'])
             body = safe_yaml(html.unescape(article['body']))
+            full_url = safe_yaml(html.unescape(article['full_url']))
 
             if not article["tags"]:
                 print(article["tags"])
@@ -187,6 +203,7 @@ def generate_hugo_posts(rss_urls, site_no, site_name, article_urls, output_dir, 
             # with open(file_path, 'w', encoding='cp932') as f:
 
                 f.write(f'---\n')
+                # f.write(f'published_time: "{article["published_time"]}"\n')  # FIX
                 f.write(f'title: "{title}"\n')
                 f.write(f'full_url: "{article["full_url"]}"\n')
                 f.write(f'short_url: "{article["short_url"]}"\n')
@@ -200,22 +217,32 @@ def generate_hugo_posts(rss_urls, site_no, site_name, article_urls, output_dir, 
                 f.write(f'tags: {tags}\n')
                 f.write(f'keywords: {article["keywords"]}\n')
                 f.write(f'thumbnail: "{article["image_url"]}"\n')
-                f.write(f'images: "{article["images"]}"\n')
-                f.write(f'videos: "{article["movies"]}"\n')
+                # f.write(f'images: "{images}"\n')
+                # f.write(f'videos: "{videos}"\n')
                 f.write(f'popular: {article["popular"]}\n')
                 f.write(f'latest: {article["latest"]}\n')
                 f.write(f'trend: {article["trend"]}\n')
-                f.write(f'featured: "{article["featured"]}"\n')
+                f.write(f'featured: {article["featured"]}\n')
                 f.write(f'views: {article["views"]}\n')
                 f.write(f'comments: {article["comments"]}\n')
+                f.write(f'weight: {article["weight"]}\n')
                 f.write(f'---\n\n')
-                f.write(f'![]({article["image_url"]})\n\n')
-                f.write(f'![]({article["movies"]})\n\n')
-                f.write(body)
+                f.write(f'![alt]({article["image_url"]})\n\n')
+                f.write(f'![alt]({article["movies"]})\n\n')
+                f.write(f'{body}\n\n')
+                f.write(f'({full_url})\n')
 
-            print(f"🟢 New {site_name} in {output_dir}/{file_name}.", end='\n\n')
+            print(f"🟢 New {site_name} in {file_path}.", end='\n\n')
         except Exception as e:
             print(f"🔴 Failed {site_name}.", end='\n\n')
+            if os.path.exists(file_path):
+                try:
+                    os.remove(file_path)
+                    print(f'Delete {file_path}')
+                except OSError as e:
+                    print(f'Delete failed {e}')
+            else:
+                print(f'Not Exist {file_path}')
             print(e)
 
 def safe_yaml(text):
@@ -290,7 +317,6 @@ def remove_old_hugo_posts(output_dir, max_posts=1000):
         file_to_delete = os.path.join(output_dir, files.pop(0))
         os.remove(file_to_delete)
         print(f"Removed old Hugo post: {file_to_delete}")
-
 
 def random_sort_dict(input_dict):
     random_keys = list(input_dict.keys())
