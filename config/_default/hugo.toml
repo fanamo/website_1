@@ -1,4 +1,4 @@
-baseurl = "https://fanamo.github.io/website_1"
+baseurl = "/"
 title = "ファル速"
 theme = "custom_theme"
 googleAnalytics = ""
