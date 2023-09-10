@@ -1,7 +1,9 @@
 <div class="banner">
-<a href="{{ relURL .Site.BaseURL }}"{{ if not .Site.Params.banner }} class="text"{{ end }}>
+
+
 {{ with .Site.Params.banner }}
 
+<div class="banner-img">
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0.00 0.00 720.00 720.00" height="90px">
     <g stroke-width="2.00" fill="none" stroke-linecap="butt">
     <path stroke="#3f4452" vector-effect="non-scaling-stroke" d="
@@ -33086,10 +33088,10 @@
     Z"
 />
 </svg>
-
+</div>
 
 <!-- <img src="{{ relURL .src }}" alt="{{ .alt }}" /> -->
 {{ else }}{{ (replaceRE "(&[A-Z]) (fr;)" "$1$2" (replaceRE "([A-Z])" "&$1 fr;" (upper .Site.Title))) | safeHTML }}
 {{ end }}</a>
-</div>
 
+</div>
