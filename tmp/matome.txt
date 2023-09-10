@@ -1,5 +1,4 @@
 http://hamusoku.com
-http://blog.livedoor.jp/dqnplus
 http://blog.livedoor.jp/news23vip
 http://blog.livedoor.jp/kinisoku
 http://bipblog.com
@@ -25,7 +24,6 @@ http://amaebi.co/
 http://dechisoku.com/
 http://www.moe-vip.com/
 http://mofful.livedoor.blog/
-https://unkochan893.com/
 https://world-study.jp/
 https://hagelicious.com/
 https://coinmatome.com/

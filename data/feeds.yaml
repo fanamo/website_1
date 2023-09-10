@@ -7,14 +7,6 @@ items:
   limit: 1
   feed_url:
   - https://hamusoku.com/atom.xml
-- name: dqnplus
-  url: http://blog.livedoor.jp/dqnplus
-  categories: エンタメ
-  tags: []
-  locale: ja-jp
-  limit: 1
-  feed_url:
-  - http://blog.livedoor.jp/staff-smartphone_help/index.rdf
 - name: news23vip
   url: http://blog.livedoor.jp/news23vip
   categories: エンタメ
@@ -158,7 +150,6 @@ items:
   limit: 1
   feed_url:
   - http://2fg.blog.jp/index.rdf
-  - http://2fg.blog.jp/atom.xml
 - name: kankeinai
   url: http://kankeinai.blog.jp
   categories: エンタメ
@@ -167,16 +158,6 @@ items:
   limit: 1
   feed_url:
   - http://kankeinai.blog.jp/index.rdf
-  - http://kankeinai.blog.jp/atom.xml
-  - http://kankeinai.blog.jp/archives/cat_1207221.xml
-  - http://kankeinai.blog.jp/archives/cat_1209359.xml
-  - http://kankeinai.blog.jp/archives/cat_1218829.xml
-  - http://kankeinai.blog.jp/archives/cat_1224295.xml
-  - http://kankeinai.blog.jp/archives/cat_1267860.xml
-  - http://kankeinai.blog.jp/archives/cat_173451.xml
-  - http://kankeinai.blog.jp/archives/cat_173452.xml
-  - http://kankeinai.blog.jp/archives/cat_703783.xml
-  - http://kankeinai.blog.jp/archives/cat_763215.xml
 - name: lifehack2ch
   url: http://lifehack2ch.livedoor.biz
   categories: エンタメ
@@ -185,7 +166,6 @@ items:
   limit: 1
   feed_url:
   - http://lifehack2ch.livedoor.biz/atom.xml
-  - http://lifehack2ch.livedoor.biz/index.rdf
 - name: idobata-kaigis
   url: https://idobata-kaigis.com
   categories: エンタメ
@@ -194,16 +174,6 @@ items:
   limit: 1
   feed_url:
   - https://idobata-kaigis.com/rssfeed/feed.xml
-- name: katasumisokuhou
-  url: http://katasumisokuhou.blog.jp/
-  categories: エンタメ
-  tags: []
-  locale: ja-jp
-  limit: 1
-  feed_url:
-  - http://katasumisokuhou.blog.jp/atom.xml
-  - http://katasumisokuhou.blog.jp/index.rdf
-  - https://fuwa2vip.blog.fc2.com/?xml
 - name: amaebi
   url: http://amaebi.co/
   categories: エンタメ
@@ -220,7 +190,6 @@ items:
   limit: 1
   feed_url:
   - http://dechisoku.com/index.rdf
-  - http://dechisoku.com/index20.rdf
 - name: moe-vip
   url: http://www.moe-vip.com/
   categories: エンタメ
@@ -237,14 +206,6 @@ items:
   limit: 1
   feed_url:
   - http://mofful.livedoor.blog/atom.xml
-- name: unkochan893
-  url: https://unkochan893.com/
-  categories: エンタメ
-  tags: []
-  locale: ja-jp
-  limit: 1
-  feed_url:
-  - http://matomery.mengine.jp/feed/youtube.xml
 - name: world-study
   url: https://world-study.jp/
   categories: エンタメ
@@ -413,7 +374,6 @@ items:
   limit: 1
   feed_url:
   - https://nahrung.blog.jp/atom.xml
-  - https://nahrung.blog.jp/index.rdf
 - name: omosiroisure
   url: https://omosiroisure.blog.jp/
   categories: エンタメ

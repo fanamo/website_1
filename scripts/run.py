@@ -227,8 +227,8 @@ def generate_hugo_posts(rss_urls, site_no, site_name, article_urls, output_dir, 
                 f.write(f'comments: {article["comments"]}\n')
                 f.write(f'weight: {article["weight"]}\n')
                 f.write(f'---\n\n')
-                f.write(f'![alt]({article["image_url"]})\n\n')
-                f.write(f'![alt]({article["movies"]})\n\n')
+                f.write(f'![]({article["image_url"]})\n\n')
+                # f.write(f'![]({article["movies"]})\n\n')
                 f.write(f'{body}\n\n')
                 f.write(f'({full_url})\n')
 
