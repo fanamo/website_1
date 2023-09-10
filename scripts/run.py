@@ -19,6 +19,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 from shutil import copyfile
 import html
+import base64
 import tldextract
 
 from janome.tokenizer import Tokenizer
@@ -58,8 +59,10 @@ def extract_article_id(url):
 
 def generate_filename(site_name, url):
     article_id = extract_article_id(url)
-    # timestamp = datetime.now().strftime('%Y%m%d%H%M%S')
-    file_name = f"{site_name.split('.')[0]}_{article_id}.md"
+    timestamp = datetime.now().timestamp()
+    timestamp = datetime.now().strftime('%Y%m%d%H%M%S')
+    # file_name = f"{site_name.split('.')[0]}_{article_id}.md"
+    file_name = f"{timestamp}.md"
     return file_name
 
 def get_metadata(article_url):
@@ -183,6 +186,8 @@ def generate_hugo_posts(rss_urls, site_no, site_name, article_urls, output_dir, 
             body = safe_yaml(html.unescape(article['body']))
             full_url = safe_yaml(html.unescape(article['full_url']))
 
+            encoded_url = base64.b64encode(full_url.encode()).decode()
+
             if not article["tags"]:
                 print(article["tags"])
                 filter_dict = {
@@ -226,6 +231,7 @@ def generate_hugo_posts(rss_urls, site_no, site_name, article_urls, output_dir, 
                 f.write(f'views: {article["views"]}\n')
                 f.write(f'comments: {article["comments"]}\n')
                 f.write(f'weight: {article["weight"]}\n')
+                f.write(f'slug: {encoded_url}\n')
                 f.write(f'---\n\n')
                 f.write(f'![]({article["image_url"]})\n\n')
                 # f.write(f'![]({article["movies"]})\n\n')
@@ -427,7 +433,7 @@ def main():
     parser.add_argument("-o", "--output_dir", nargs="?", default="content/post", help="Output directory for Hugo posts")
     parser.add_argument("--news_date", default=datetime.now().strftime('%Y-%m-%dT%H:%M:%S%z'), help="News date")
     parser.add_argument("-l", "--limit", type=int, default=1, help="Limit the number of articles to process")
-    parser.add_argument("-sl", "--site_limit", type=int, default=1, help="Limit of the number of websites to process")
+    parser.add_argument("-sl", "--site_limit", type=int, default=None, help="Limit of the number of websites to process")
     parser.add_argument("-r", "--random", action="store_true", help="Get random site order")
     parser.add_argument("-s", "--shuffle", action="store_true", help="[WIP] Shuffle output articles order")
     parser.usage = f"""
