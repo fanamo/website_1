@@ -1,0 +1,27 @@
+---
+title: "【悲報】冨岡義勇「アイツは！」闇柱ワイ「クククッ」炭治郎(なんて闘気だ…震えが止まらない！)ｿﾞｸﾘ"
+full_url: "https://manga.itsys-tech.com/post/23090903/"
+short_url: "itsys-tech"
+language: "ja"
+date: 2023-09-09T20:29:00+09:00
+lastmod: 
+draft: false
+author: []
+categories: []
+tags: ['冨岡', '悲報', '治郎']
+keywords: []
+thumbnail: "https://manga.itsys-tech.com/img/kimetsu_anime_giyu.jpg"
+popular: 1810
+latest: 1896
+trend: 1417
+featured: 1582
+views: 119
+comments: 76
+weight: 3
+---
+
+![](https://manga.itsys-tech.com/img/kimetsu_anime_giyu.jpg)
+
+<div><p class='t_h'>1: <p>2023/08/23(水) 10:27:09.33 ID:62huEA5N0</p></p><p class='t_b'>炭治郎「下がっててくださいよ義勇さん！あんなヤツ俺が一撃でぶっ倒しますよ！w」<br>義勇「待て、奴は闇柱。そして鬼となった裏切り者だ。そして日の呼吸と対局にある鬼にのみ使える呼吸を操る」<br>ワイ「行くぞ…星の呼吸…壱の型…『妖星乱舞』…！」<br>炭治郎「ザコそうな技だな！ガードしてやるよ！」<br>義勇「…！よけろ炭治郎！！」<br>炭治郎「…！ぐぎゃぁぁあ！！」ﾌﾟｼｬｱｱ<br>義勇「炭治郎おおお！」<br>ワイ「トドメだ…星の呼吸…終の型…『メテオ』…！」ｺﾞｺﾞｺﾞｺﾞ<br>つづく</p><br><p class='t_h'>2: <p>2023/08/23(水) 10:28:00.66 ID:/iHLHhrC0</p></p><p class='t_b'>中日の呼吸思い出した</p><br><p class='t_h t_i'>18: <p>2023/08/23(水) 10:38:29.07 ID:lzZOob79M</p></p><p class='t_b t_i'><p class='anchor'>>>2</p><br>虫の息やんけ！</p><br><p class='t_h'>3: <p>2023/08/23(水) 10:28:22.58 ID:uWiLd6fga</p></p><p class='t_b'>お前は蚊柱ぐらいだろ</p><br><p class='t_h'>4: <p>2023/08/23(水) 10:28:49.53 ID:Pjq+6HjTp</p></p><p class='t_b'>スレタイと本文の炭治郎の性格が違うヤンケ</p><br><p class='t_h'>7: <p>2023/08/23(水) 10:30:39.87 ID:E8qyStvJd</p></p><p class='t_b'>炭治郎はそんなこと言わない</p><br><p class='t_h'>8: <p>2023/08/23(水) 10:30:54.48 ID:jhWPzWSQr</p></p><p class='t_b'>くっそ寒いんやけど何歳やこいつ</p><br><p class='t_h t_i'>10: <p>2023/08/23(水) 10:31:41.80 ID:62huEA5N0</p></p><p class='t_b t_i'><p class='anchor'>>>8</p><br>24</p><br><p class='t_h t_i'>12: <p>2023/08/23(水) 10:33:59.29 ID:FOfriek8a</p></p><p class='t_b t_i'><p class='anchor'>>>10</p><br>大ガキやん<br>ちな34</p><br><p class='t_h t_i'>20: <p>2023/08/23(水) 10:39:02.39 ID:z7rmyXJqM</p></p><p class='t_b t_i'><p class='anchor'>>>12</p><br>もう終わりだよこの板</p><br><p class='t_h t_i'>22: <p>2023/08/23(水) 10:39:27.90 ID:0/LAc90Yd</p></p><p class='t_b t_i'><p class='anchor'>>>12</p><br>じじいきめーw</p><br><p class='t_h t_i'>26: <p>2023/08/23(水) 10:42:13.79 ID:552JD4iAr</p></p><p class='t_b t_i'><p class='anchor'>>>12</p><br>おっさんで臭</p><br><p class='t_h'>9: <p>2023/08/23(水) 10:31:14.61 ID:zbP5Qm8K0</p></p><p class='t_b'>一晩中戦う顔してそう</p><br><p class='t_h'>11: <p>2023/08/23(水) 10:31:42.33 ID:st+X8wfla</p></p><p class='t_b'>あっ！これトーナメント準決勝で見たやつだ！</p><br><p class='t_h'>13: <p>2023/08/23(水) 10:34:17.36 ID:O6DGq4uyd</p></p><p class='t_b'>弱者男性きっしょ</p><br><p class='t_h t_i'>14: <p>2023/08/23(水) 10:36:49.69 ID:62huEA5N0</p></p><p class='t_b t_i'><p class='anchor'>>>13</p><br>弱者(元柱かつ上限の零)</p><br><p class='t_h'>16: <p>2023/08/23(水) 10:37:09.86 ID:9HAc5Ccb0</p></p><p class='t_b'>震えが止まらないのに一撃で倒そうとすんな</p><br><p class='t_h'>17: <p>2023/08/23(水) 10:37:22.99 ID:lliX6pGi0</p></p><p class='t_b'>義勇はそんな事言わない</p><br><p class='t_h'>27: <p>2023/08/23(水) 10:43:32.88 ID:62huEA5N0</p></p><p class='t_b'>ちな24ってのは外見年齢ではなくてガチの年齢<br>鬼になってまだ1年程度だけど既に上弦の零にまで達した<br>めちゃくちゃ強い鬼狩りはそこまでいける</p><br><p class='t_h t_i'>28: <p>2023/08/23(水) 10:44:28.75 ID:66ixaH5mr</p></p><p class='t_b t_i'><p class='anchor'>>>27</p><br>あ、イッチの話はもういいよ</p><br><p class='t_h'>29: <p>2023/08/23(水) 10:45:07.55 ID:kdlQvSt+0</p></p><p class='t_b'>爺柱沸いてて草</p><br><p class='t_h'>30: <p>2023/08/23(水) 10:45:27.53 ID:/iHLHhrC0</p></p><p class='t_b'>コピペかと思ったらそうじゃないのね</p><br><p class='t_h'>31: <p>2023/08/23(水) 10:46:05.95 ID:62huEA5N0</p></p><p class='t_b'>新上弦の陸の獪岳は1年後だったら善逸を瞬殺するくらい強くなっていた<br>柱じゃない獪岳でさえ1年でそこまで成長するんやから元闇柱のワイが鬼になったら1年で上弦の零になるのは必然やしな</p><br><p class='t_h'>36: <p>2023/08/23(水) 10:48:48.12 ID:8rCv1Rqjp</p></p><p class='t_b'>ワイは虹柱やで<br>LGBTの呼吸で全てに勝つで</p><br><p class='t_h'>37: <p>2023/08/23(水) 10:48:52.71 ID:wQrXLoIO0</p></p><p class='t_b'>闇柱なのに星の呼吸なのはなんやねん</p><br><p class='t_h t_i'>38: <p>2023/08/23(水) 10:49:31.13 ID:62huEA5N0</p></p><p class='t_b t_i'><p class='anchor'>>>37</p><br>闇＝夜＝星</p><br><p class='t_h t_i'>44: <p>2023/08/23(水) 10:53:13.21 ID:diiMt//J0</p></p><p class='t_b t_i'><p class='anchor'>>>38</p><br>かっけえ…</p><br><p class='t_h t_i'>61: <p>2023/08/23(水) 11:11:36.33 ID:q5YCWWdaM</p></p><p class='t_b t_i'><p class='anchor'>>>38</p><br>うおおおおおおお</p><br><p class='t_h'>42: <p>2023/08/23(水) 10:50:58.84 ID:4IbTjypQ0</p></p><p class='t_b'>ザコそうな技だな！←これすき</p><br><p class='t_h'>43: <p>2023/08/23(水) 10:53:13.09 ID:L7xO4uHkd</p></p><p class='t_b'>タンジェロ性格変わってるやん</p><br><p class='t_h'>46: <p>2023/08/23(水) 10:54:51.74 ID:EYm3/hPC0</p></p><p class='t_b'>ワイの呼吸でどんな強敵もイチコロよ😮‍💨🌬🌬</p><br><p class='t_h t_i'>51: <p>2023/08/23(水) 10:58:29.64 ID:duVySSwF0</p></p><p class='t_b t_i'><p class='anchor'>>>46</p><br>息くっさ</p><br><p class='t_h'>50: <p>2023/08/23(水) 10:58:10.99 ID:IT/rvFSq0</p></p><p class='t_b'>ワイショタコン柱、炭治郎や無一郎やいのすけらをペロリ</p><br><p class='t_h'>57: <p>2023/08/23(水) 11:05:19.41 ID:U5C6eWoEd</p></p><p class='t_b'>イキリ炭治郎すき</p><br><p class='t_h'>59: <p>2023/08/23(水) 11:08:19.08 ID:BVXqkH2lM</p></p><p class='t_b'>炭治郎「鬼の呼吸！鬼滅の刃だぁぁぁぁ！！！」</p><br><p class='t_h t_i'>64: <p>2023/08/23(水) 11:14:15.36 ID:wwhbk0CF0</p></p><p class='t_b t_i'><p class='anchor'>>>59</p><br>なんで鬼なのに鬼滅やねん</p><br><p class='t_h'>63: <p>2023/08/23(水) 11:14:09.92 ID:qFEQK09Ed</p></p><p class='t_b'>ワイ禿柱、高みの見物</p><br><p class='t_h t_i'>65: <p>2023/08/23(水) 11:15:08.34 ID:qhD/zz5za</p></p><p class='t_b t_i'><p class='anchor'>>>63</p><br>禿柱は常に輝いているんやろなぁ…</p><br><p class='t_h'>34: <p>2023/08/23(水) 10:47:58.81 ID:ckIAbqjP0</p></p><p class='t_b'>炭次郎の口調すき</p><br></div>
+
+(https://manga.itsys-tech.com/post/23090903/)

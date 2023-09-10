@@ -1,0 +1,27 @@
+---
+title: "【ゲーム】俺がスプラトゥーンを辞めたい理由一選当ててみ : ゲーム配信者速報"
+full_url: "https://gamehaishin.com/archives/21103409.html"
+short_url: "gamehaishin"
+language: "ja"
+date: 2023-03-31T08:00:11+0900
+lastmod: 
+draft: false
+author: []
+categories: []
+tags: ['理由', '速報', '配信']
+keywords: []
+thumbnail: "https://livedoor.blogimg.jp/syatiku_gamer0514-t0tkpeod/imgs/3/b/3b66227c.jpg"
+popular: 1681
+latest: 1048
+trend: 21
+featured: 1823
+views: 1560
+comments: 124
+weight: 10
+---
+
+![](https://livedoor.blogimg.jp/syatiku_gamer0514-t0tkpeod/imgs/3/b/3b66227c.jpg)
+
+<div><p id='resuname2'>以下、5ちゃんねるからVIPがお送りします </p>：2023/02/27(月) 18:29:24.768ID:BOn6cIc2a<p id='surebody2' class='surebody_BOn6cIc2a' name='surebodymain'> カニのみなのでつまらないから </p><br><p>：2023/02/27(月) 18:29:24.768ID:BOn6cIc2a</p><p id='resuname3'>以下、5ちゃんねるからVIPがお送りします </p>：2023/02/27(月) 18:29:43.532ID:+F4TSe8u0<p id='surebody3' class='surebody_F4TSe8u0' name='surebodymain'> 下手くそなので勝てないから </p><br><p>：2023/02/27(月) 18:29:43.532ID:+F4TSe8u0</p><p id='resuname7'>以下、5ちゃんねるからVIPがお送りします </p>：2023/02/27(月) 18:33:16.125ID:20ApmN1C0<p id='surebody7' class='surebody_20ApmN1C0' name='surebodymain'> <p>>>3</p> <br> 半分正解 </p><br><p>：2023/02/27(月) 18:33:16.125ID:20ApmN1C0</p><p id='resuname4'>以下、5ちゃんねるからVIPがお送りします </p>：2023/02/27(月) 18:30:42.652ID:3g9l/dbV0<p id='surebody4' class='surebody_3g9ldbV0' name='surebodymain'> 歳なのですから </p><br><p>：2023/02/27(月) 18:30:42.652ID:3g9l/dbV0</p><p id='resuname5'>以下、5ちゃんねるからVIPがお送りします </p>：2023/02/27(月) 18:31:05.503ID:adMXKwD3a<p id='surebody5' class='surebody_adMXKwD3a' name='surebodymain'> 味方が無能なのでイライラするから </p><br><p>：2023/02/27(月) 18:31:05.503ID:adMXKwD3a</p><p id='resuname6'>以下、5ちゃんねるからVIPがお送りします </p>：2023/02/27(月) 18:32:06.909ID:GSYngXLe0<p id='surebody6' class='surebody_GSYngXLe0' name='surebodymain'> 短気なのでパッドを破壊してしまうから </p><br><p>：2023/02/27(月) 18:32:06.909ID:GSYngXLe0</p><p id='resuname8'>以下、5ちゃんねるからVIPがお送りします </p>：2023/02/27(月) 18:33:25.436ID:adMXKwD3a<p id='surebody8' class='surebody_adMXKwD3a' name='surebodymain'> 正解は？ </p><br><p>：2023/02/27(月) 18:33:25.436ID:adMXKwD3a</p><p id='resuname9'>以下、5ちゃんねるからVIPがお送りします </p>：2023/02/27(月) 18:34:18.498ID:JPRyXh9m0<p id='surebody9' class='surebody_JPRyXh9m0' name='surebodymain'> ともだちいないからでしょ </p><br><p>：2023/02/27(月) 18:34:18.498ID:JPRyXh9m0</p><p id='resuname10'>以下、5ちゃんねるからVIPがお送りします </p>：2023/02/27(月) 18:34:35.691ID:20ApmN1C0<p id='surebody10' class='surebody_20ApmN1C0' name='surebodymain'> 下手なので味方に迷惑をかけるから <br> Ｓ+0、－1600 <br> スパッタリーヒュー <br> 1試合平均10デス <br> 飛んでは死に飛んでは死に <br> <br> もう限界 </p><br><p>10：2023/02/27(月) 18:34:35.691ID:20ApmN1C0</p><p id='resuname11'>以下、5ちゃんねるからVIPがお送りします </p>：2023/02/27(月) 18:37:42.287ID:m5Mj/4ara<p id='surebody11' class='surebody_m5Mj4ara' name='surebodymain'> スプラ2ではS+0の壁ってワードがあったぞ </p><br><p>11：2023/02/27(月) 18:37:42.287ID:m5Mj/4ara</p><p id='resuname12'>以下、5ちゃんねるからVIPがお送りします </p>：2023/02/27(月) 18:40:20.977ID:6QhTY2dO0<p id='surebody12' class='surebody_6QhTY2dO0' name='surebodymain'> 飛ばなきゃいいじゃん </p><br><p>12：2023/02/27(月) 18:40:20.977ID:6QhTY2dO0</p><p id='resuname13'>以下、5ちゃんねるからVIPがお送りします </p>：2023/02/27(月) 18:46:47.953ID:890lypX4a<p id='surebody13' class='surebody_890lypX4a' name='surebodymain'> こっちはステジャン積まずに復短ガン積みでデス量産するクアッドだから安心しろ！平均15デスや！ </p><br><p>13：2023/02/27(月) 18:46:47.953ID:890lypX4a</p><p id='resuname14'>以下、5ちゃんねるからVIPがお送りします </p>：2023/02/27(月) 18:47:17.434ID:+F4TSe8u0<p id='surebody14' class='surebody_F4TSe8u0' name='surebodymain'> なんキル取れるの？ </p><br><p>14：2023/02/27(月) 18:47:17.434ID:+F4TSe8u0</p><p id='resuname15'>以下、5ちゃんねるからVIPがお送りします </p>：2023/02/27(月) 18:49:00.861ID:20ApmN1C0<p id='surebody15' class='surebody_20ApmN1C0' name='surebodymain'> 平均8くらいかな </p><br><p>15：2023/02/27(月) 18:49:00.861ID:20ApmN1C0</p></div>
+
+(https://gamehaishin.com/archives/21103409.html)

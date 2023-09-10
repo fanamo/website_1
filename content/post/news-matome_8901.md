@@ -1,0 +1,27 @@
+---
+title: "【訃報】 上岡龍太郎さん死去 桂ざこばが追悼「とてもショックです」 2023/06/02"
+full_url: "https://news-matome.sakura.ne.jp/archives/8901"
+short_url: "news-matome"
+language: "ja"
+date: 2023-06-02T12:42:29Z
+lastmod: 
+draft: false
+author: []
+categories: ['芸能']
+tags: ['上岡', '死去', '訃報']
+keywords: []
+thumbnail: "https://news-matome.sakura.ne.jp/x/wp-content/uploads/2023/06/kamioka1.jpg"
+popular: 1228
+latest: 1439
+trend: 1862
+featured: 1353
+views: 1249
+comments: 25
+weight: 3
+---
+
+![](https://news-matome.sakura.ne.jp/x/wp-content/uploads/2023/06/kamioka1.jpg)
+
+<div><p class='t_h'>1: <p>名無し</p> <p> 2023/06/02(金) 12:24:04.75 ID:t4ASbuaH9</p></p> <p></p> <p class='t_h t_i'>59: <p>名無し</p> <p> 2023/06/02(金) 12:26:34.17 ID:XzSUuoy80</p></p> <p class='t_b t_i'><p class='anchor'>>>1</p><br> テレビで見かけないと思ったら闘病してたんか<br> ご冥福を</p> <p class='t_h t_i'>99: <p>名無し</p> <p> 2023/06/02(金) 12:28:14.28 ID:SOAdp34g0</p></p> <p class='t_b t_i'><p class='anchor'>>>1</p><br> マジかよ<br> ホンマに天才やからな上岡さん<br> たかじんくらいショックや</p> <p class='t_h'>2: <p>名無し</p> <p> 2023/06/02(金) 12:24:13.79 ID:A7Rc2B3A0</p></p> <p class='t_b'>誰？</p> <p class='t_h t_i'>152: <p>名無し</p> <p> 2023/06/02(金) 12:30:00.18 ID:eTCFtww+0</p></p> <p class='t_b t_i'><p class='anchor'>>>2</p><br> 漫画トリオの横山パンチさん</p> <p class='t_h'>3: <p>名無し</p> <p> 2023/06/02(金) 12:24:19.51 ID:plwVFHwz0</p></p> <p class='t_b'>おう</p> <p class='t_h'>4: <p>名無し</p> <p> 2023/06/02(金) 12:24:20.50 ID:COj9Vyl90</p></p> <p class='t_b'>芸人ってのは落ちこぼれです。社会のはみ出し者。アウトロー､いわば暴力団と一緒です。やから､我々芸人とヤクザは一緒。芸人とヤクザが癒着したらアカン言うけどウソ。根が一緒だから癒着も何もない､元々同じタイプの人間やからね</p> <p class='t_h t_i'>26: <p>名無し</p> <p> 2023/06/02(金) 12:25:22.28 ID:xzt7R4Pm0</p></p> <p class='t_b t_i'><p class='anchor'>>>4</p><br> あのトークの後ろでかかってる曲がかっこいいんだよな</p> <p class='t_h t_i'>35: <p>名無し</p> <p> 2023/06/02(金) 12:25:40.12 ID:ALxvEBHp0</p></p> <p class='t_b t_i'><p class='anchor'>>>4</p><br> こういう開き直りが一番ダメ<br> 表に出るんなら、ヤクザと関係を断てなきゃダメ<br> 断てないんなら、暴対法の対象になるのが当然</p> <p class='t_h t_i'>171: <p>名無し</p> <p> 2023/06/02(金) 12:30:32.85 ID:JGD6sbx00</p></p> <p class='t_b t_i'><p class='anchor'>>>35</p><br> だから引退したじゃん<br> この発言の真意は知らんけどさっさと辞めたんだしこの人自体に問題はない<br> バレそうになってやめたあの人や未だのらりくらりしてる連中よりだいぶマシ</p> <p class='t_h'>5: <p>名無し</p> <p> 2023/06/02(金) 12:24:23.19 ID:aC2L05l90</p></p> <p class='t_b'>本当に頭のいい方でした<br> スパッと引退されたのも良かった</p> <p class='t_h'>7: <p>名無し</p> <p> 2023/06/02(金) 12:24:25.33 ID:VAyzkiQk0</p></p> <p class='t_b'>だまされないぞ</p> <p class='t_h'>8: <p>名無し</p> <p> 2023/06/02(金) 12:24:32.92 ID:Dqu/OJfG0</p></p> <p class='t_b'>うおおおおおおおおおおおおおお</p> <p class='t_h'>9: <p>名無し</p> <p> 2023/06/02(金) 12:24:36.80 ID:2UbtHbAw0</p></p> <p class='t_b'>ワクチン</p> <p class='t_h'>10: <p>名無し</p> <p> 2023/06/02(金) 12:24:38.70 ID:yL76HZBG0</p></p> <p class='t_b'>引き際は見事でした</p> <p class='t_h'>11: <p>名無し</p> <p> 2023/06/02(金) 12:24:40.71 ID:lG9rHfJT0</p></p> <p class='t_b'>お疲れ様でした</p> <p class='t_h'>12: <p>名無し</p> <p> 2023/06/02(金) 12:24:41.38 ID:tFZOq06t0</p></p> <p class='t_b'>上岡「ゴメン、やっぱり霊界ってあったわ…」</p> <p class='t_h t_i'>124: <p>名無し</p> <p> 2023/06/02(金) 12:29:07.74 ID:5THtg7gs0</p></p> <p class='t_b t_i'><p class='anchor'>>>12</p><br> 草</p> <p class='t_h'>13: <p>名無し</p> <p> 2023/06/02(金) 12:24:41.91 ID:Y/i1TYIB0</p></p> <p class='t_b'>パペポTV</p> <p class='t_h'>14: <p>名無し</p> <p> 2023/06/02(金) 12:24:43.60 ID:v3aRXN+40</p></p> <p class='t_b'>ご冥福</p> <p class='t_h'>15: <p>名無し</p> <p> 2023/06/02(金) 12:24:47.64 ID:U5s5LPft0</p></p> <p class='t_b'>脱力</p> <p class='t_h'>16: <p>名無し</p> <p> 2023/06/02(金) 12:25:01.21 ID:JbD1mzDt0</p></p> <p class='t_b'>私が上岡龍太郎です</p> <p class='t_h'>17: <p>名無し</p> <p> 2023/06/02(金) 12:25:04.34 ID:GVQLb6PB0</p></p> <p class='t_b'>マジかぁ残念合掌</p> <p class='t_h'>18: <p>名無し</p> <p> 2023/06/02(金) 12:25:06.54 ID:jIBfEqhZ0</p></p> <p class='t_b'>しんすけも連れてってくれや</p> <p class='t_h'>19: <p>名無し</p> <p> 2023/06/02(金) 12:25:09.52 ID:7QKcCIWE0</p></p> <p class='t_b'>ぱんぱかぱーん</p> <p class='t_h'>20: <p>名無し</p> <p> 2023/06/02(金) 12:25:09.74 ID:YIP5Zanz0</p></p> <p class='t_b'>誰だよ</p> <p class='t_h t_i'>51: <p>名無し</p> <p> 2023/06/02(金) 12:26:11.32 ID:M5HBOhkl0</p></p> <p class='t_b t_i'>鶴瓶とやってたパペポはもう復活できなくなったか<br> <p class='anchor'>>>20</p><br> 横山ノック（元大阪府知事）の相方</p> <p class='t_h t_i'>110: <p>名無し</p> <p> 2023/06/02(金) 12:28:37.64 ID:sq/5XkHP0</p></p> <p class='t_b t_i'><p class='anchor'>>>51</p><br> 青芝フックは生きてるんだろうか</p> <p class='t_h'>21: <p>名無し</p> <p> 2023/06/02(金) 12:25:10.36 ID:EywL89sd0</p></p> <p class='t_b'>一番ナイスクが面白いときの編集長</p> <p class='t_h t_i'>72: <p>名無し</p> <p> 2023/06/02(金) 12:27:14.89 ID:yfYMajeu0</p></p> <p class='t_b t_i'><p class='anchor'>>>21</p><br> 局長な！</p> <p class='t_h'>22: <p>名無し</p> <p> 2023/06/02(金) 12:25:15.92 ID:6p1v6Bqv0</p></p> <p class='t_b'>うわあああ嘘だああああ</p> <p class='t_h'>23: <p>名無し</p> <p> 2023/06/02(金) 12:25:17.01 ID:7rh8KWip0</p></p> <p class='t_b'>ええええええええええええええええええ</p> <p class='t_h'>24: <p>名無し</p> <p> 2023/06/02(金) 12:25:18.67 ID:8WfpD5FG0</p></p> <p class='t_b'>これはビックリ</p> <p class='t_h'>25: <p>名無し</p> <p> 2023/06/02(金) 12:25:20.44 ID:Y9O9CY0X0</p></p> <p class='t_b'>鶴瓶さんは辛いだろう<br> 笑瓶に続いてだもんな</p> <p class='t_h'>29: <p>名無し</p> <p> 2023/06/02(金) 12:25:24.33 ID:6CGkfdb50</p></p> <p class='t_b'>引退したのもう20年前くらいか</p> <p>引用元：<a href='https://hayabusa9.5ch.net/test/read.cgi/mnewsplus/1685676244/' class='external'>https://hayabusa9.5ch.net/test/read.cgi/mnewsplus/1685676244/</a></p> </div>
+
+(https://news-matome.sakura.ne.jp/archives/8901)

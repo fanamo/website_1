@@ -1,0 +1,27 @@
+---
+title: "三大地球の黒歴史「覇者が爬虫類の恐竜」「覇者がスペインとポルトガルとかいう微妙な2国」"
+full_url: "https://world-study.jp/archives/90635"
+short_url: "world-study"
+language: "ja"
+date: 2023-09-10T10:09:00Z
+lastmod: 
+draft: false
+author: []
+categories: ['歴史考察']
+tags: ['覇者', '地球', '微妙']
+keywords: []
+thumbnail: "https://world-study.jp/wp-content/uploads/a9ojfvnqmkc.jpg"
+popular: 1512
+latest: 1462
+trend: 295
+featured: 1554
+views: 561
+comments: 83
+weight: 8
+---
+
+![](https://world-study.jp/wp-content/uploads/a9ojfvnqmkc.jpg)
+
+<div><p class='ps-label'>スポンサーリンク</p><p class='ps-widget'></p><p class='t_h'><p>1: <p> 2023/06/13(火) 15:50:21.43 ID:aM3eurVsM</p></p></p><p class='t_b'><p> あとひとつは？ </p></p><p></p><p class='t_h'><p>2: <p> 2023/06/13(火) 15:51:15.48 ID:tB1TffYs0</p></p></p><p class='t_b'><p> 恐竜はええやろ<br> スペインとポルトガルは確かに黒歴史やけど </p></p><p class='t_h'><p>3: <p> 2023/06/13(火) 15:52:24.71 ID:yKLJs/yDr</p></p></p><p class='t_b'><p> 🇬🇧許された </p></p><p class='t_h t_i'><p>4: <p> 2023/06/13(火) 15:53:22.68 ID:mP5Y7AWIa</p></p></p><p class='t_b t_i'><p><p class='anchor'>>>3</p><br> 許されるもなにも近代民主主義のお手本やん </p></p><p class='t_h'><p>5: <p> 2023/06/13(火) 15:53:28.63 ID:HdV/oWf1d</p></p></p><p class='t_b'><p> 覇者がホモサピ </p></p><p class='t_h'><p>6: <p> 2023/06/13(火) 15:53:46.04 ID:Bb+cancKa</p></p></p><p class='t_b'><p> スペインとポルトガルが覇者？ </p></p><p class='t_h'><p>7: <p> 2023/06/13(火) 15:55:29.74 ID:W1Uj9rrJ0</p></p></p><p class='t_b'><p> 人間を産んでしまった事やぞ </p></p><p class='t_h'><p>8: <p> 2023/06/13(火) 15:57:47.79 ID:m0RkemNo0</p></p></p><p class='t_b'><p> スペインとポルトガルは中南米で鬼畜ムーブしただけで覇権国ではないやろ </p></p><p class='t_h'><p>9: <p> 2023/06/13(火) 15:58:28.94 ID:b2bCVgIJ0</p></p></p><p class='t_b'><p> ジョン兼イギリス定期 </p></p><p class='t_h'><p>11: <p> 2023/06/13(火) 15:59:30.65 ID:Bb+cancKa</p></p></p><p class='t_b'><p> 犬の名前みたいな王様が昔居たことの方が黒歴史やん </p></p><p class='t_h'><p>12: <p> 2023/06/13(火) 16:00:14.59 ID:NXfDWOMGM</p></p></p><p class='t_b'><p> 偶然隕石がぶつかって恐竜が絶滅したおかげで、こんなスマホやらネットやらができるほど生命が進化したと思うとほんま凄いよな<br> ほんま恐竜絶滅してくれてありがとう！ </p></p><p class='t_h t_i'><p>17: <p> 2023/06/13(火) 16:05:09.40 ID:y+gaeXy2d</p></p></p><p class='t_b t_i'><p><p class='anchor'>>>12</p><br> 恐竜があのまま進化したらタイムマシン作ってたかもしれんぞ </p></p><p class='t_h t_i'><p>18: <p> 2023/06/13(火) 16:06:30.41 ID:mP5Y7AWIa</p></p></p><p class='t_b t_i'><p><p class='anchor'>>>17</p><br> 爬虫類に進化は無理や<br> 直立歩行の可能性がないし脳が小さすぎる </p></p><p class='t_h t_i'><p>20: <p> 2023/06/13(火) 16:06:57.60 ID:tB1TffYs0</p></p></p><p class='t_b t_i'><p><p class='anchor'>>>18</p><br> あるんだよなぁ </p></p><p class='t_h'><p>13: <p> 2023/06/13(火) 16:00:25.97 ID:ryrJQaQI0</p></p></p><p class='t_b'><p> 恐竜は爬虫類じゃなき </p></p><p class='t_h t_i'><p>14: <p> 2023/06/13(火) 16:01:56.96 ID:JG0SoPzO0</p></p></p><p class='t_b t_i'><p><p class='anchor'>>>13</p><br> じゃあなんなんや </p></p><p class='t_h t_i'><p>22: <p> 2023/06/13(火) 16:12:29.28 ID:ryrJQaQI0</p></p></p><p class='t_b t_i'><p><p class='anchor'>>>14</p><br> 恐竜は恐竜やそれ以下でも以上でもない </p></p><p class='t_h t_i'><p>15: <p> 2023/06/13(火) 16:04:06.41 ID:Pur3vVaJM</p></p></p><p class='t_b t_i'><p><p class='anchor'>>>13</p><br> 爬虫類やぞ </p></p><p class='t_h'><p>16: <p> 2023/06/13(火) 16:04:23.88 ID:lcmftRPs0</p></p></p><p class='t_b'><p> 帝国としてはモンゴルが国土最大までいったやろ </p></p><p class='t_h'><p>19: <p> 2023/06/13(火) 16:06:42.81 ID:KZA7Kmcmd</p></p></p><p class='t_b'><p> 恐竜は重罪だろ<br> ギャオギャオいってるだけで何億年も浪費したんやぞ… </p></p><p class='t_h'><p>21: <p> 2023/06/13(火) 16:09:39.85 ID:mRR/XEyY0</p></p></p><p class='t_b'><p> 確かに恐竜以前は背骨獲得したり陸上進出したり知的生命に向かって進化してるのに恐竜だけ1億年以上進歩なかったからな </p></p> <p class='textwidget custom-html-widget'></p><p class='top_rss_down_title'> 管理人おすすめサイト </p> <p class='rss4'> </p><p class='posts-under-1'>スポンサードリンク</p><a href='https://hb.afl.rakuten.co.jp/hsc/22147dca.3eb27a4d.22147dcb.ab9930ba/?link_type=pict&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJwaWN0IiwiY29sIjoxLCJjYXQiOiI0NCIsImJhbiI6IjQ2MDEzNSIsImFtcCI6ZmFsc2V9' target='_blank' rel='nofollow sponsored noopener'><img src='https://hbb.afl.rakuten.co.jp/hsb/22147dca.3eb27a4d.22147dcb.ab9930ba/?me_id=1&me_adv_id=460135&t=pict' border='0' alt='' title=''></a> <br> <a href='https://px.a8.net/svt/ejp?a8mat=3TD6WR+3C9O2A+2PEO+1I1IKX' rel='nofollow'> <img border='0' width='300' height='250' alt='' src='https://www23.a8.net/svt/bgt?aid=230722875202&wid=005&eno=01&mid=s00000012624009077000&mc=1'></a> <img border='0' width='1' height='1' src='https://www10.a8.net/0.gif?a8mat=3TD6WR+3C9O2A+2PEO+1I1IKX' alt=''> <a href='https://px.a8.net/svt/ejp?a8mat=3TD6WR+4491HU+54ZG+609HT' rel='nofollow'> <img border='0' width='300' height='250' alt='' src='https://www29.a8.net/svt/bgt?aid=230722875249&wid=005&eno=01&mid=s00000023974001009000&mc=1'></a> <img border='0' width='1' height='1' src='https://www18.a8.net/0.gif?a8mat=3TD6WR+4491HU+54ZG+609HT' alt=''> <p class='posts-under-1'>スポンサードリンク</p><a href='https://px.a8.net/svt/ejp?a8mat=3BQDI5+2RFHW2+3D3Q+65U41' rel='nofollow'> <img border='0' width='300' height='250' alt='' src='https://www28.a8.net/svt/bgt?aid=201104861167&wid=005&eno=01&mid=s00000015695001035000&mc=1'></a> <img border='0' width='1' height='1' src='https://www17.a8.net/0.gif?a8mat=3BQDI5+2RFHW2+3D3Q+65U41' alt=''> <a href='https://px.a8.net/svt/ejp?a8mat=3H5J7Z+P0B9U+50+35UAKX' rel='nofollow'> <img border='0' width='300' height='250' alt='' src='https://www23.a8.net/svt/bgt?aid=210210191042&wid=005&eno=01&mid=s00000000018019121000&mc=1'></a> <img border='0' width='1' height='1' src='https://www10.a8.net/0.gif?a8mat=3H5J7Z+P0B9U+50+35UAKX' alt=''> </div>
+
+(https://world-study.jp/archives/90635)
