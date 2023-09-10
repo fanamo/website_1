@@ -26,6 +26,68 @@
         </ul>
     </div>
 </div>
+
+<div class="scroll-box-sub">
+    <form method="get" action="">
+        <!-- <p>Sort Value: {{ .Params.sort }}</p> -->
+        <label for="sort"><h2>表示順</h2></label>
+        <select id="sort" name="sort" onchange="this.form.submit()">
+            <option value=""></option>
+            <option value="latest">新着順</option>
+            <option value="popular">人気順</option>
+            <option value="views">閲覧数順</option>
+            <!-- <option value="comments">コメント数順</option> -->
+        </select>
+        </form>
+
+        {{ $sort := .Params.sort }}
+        {{ $pages := .Pages }}
+        {{ if .IsHome }}
+            {{ $pages = .Site.RegularPages }}
+        {{ end }}
+
+        {{ if eq $sort "popular" }}
+            {{ $pages = $pages | where (printf "len .Params.%s > 0" $sort) }}
+            {{ $pages = $pages | sort "Params" $sort }}
+        {{ else if eq $sort "latest" }}
+            {{ $pages = $pages | sort "Date" }}
+        {{ else if eq $sort "trend" }}
+            {{ $pages = $pages | sort "Params.trend" }}
+        {{ else if eq $sort "category" }}
+            {{ $groupedPages := slice }}
+            {{ range $pages }}
+                {{ $latest := where .Site.RegularPages "Params.latest" "!=" nil | first 50 }}
+                {{ range $latest }}
+                    {{ with index $groupedPages $latest }}
+                        {{ $groupedPages = $groupedPages | append (dict "DateKey" $latest "Pages" (slice .)) }}
+                    {{ else }}
+                        {{ $groupedPages = $groupedPages | append (dict "DateKey" $latest "Pages" (slice .)) }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+
+            {{ $sortedGroupedPages := slice }}
+            {{ range $groupedPages }}
+                {{ $sortedGroupedPages = $sortedGroupedPages | append . }}
+            {{ end }}
+
+            {{ $sortedGroupedPages = $sortedGroupedPages | sort "DateKey" }}
+            {{ $groupedPages = slice }}
+            {{ range $sortedGroupedPages }}
+                {{ $groupedPages = $groupedPages | append .Pages }}
+            {{ end }}
+
+            {{ $pages = $groupedPages }}
+        {{ end }}
+
+    <!-- <ul class="article-list"> -->
+        <!-- {{ range $pages }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }} -->
+    <!-- </ul> -->
+</div>
+
+
 <div class="scroll-box-sub">
     <div class="related">
         {{ $related := .Site.RegularPages.Related . | first 5 }}

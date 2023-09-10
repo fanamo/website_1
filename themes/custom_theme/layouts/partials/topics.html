@@ -4,15 +4,13 @@
 <div class="articles-links">
     <div class="scroll-box">
         <div class="latest">
-            <h2>新着記事</h2>
+            <h2>最新記事</h2>
             <ul>
-                {{ $latest := where .Site.RegularPages "Params.latest" "!=" nil | first 50 }}
-                {{ range $latest }}
-                    {{ if and (isset .Params "latest") (eq .Params.latest false) }}
-                        <!-- Skip this item as it's not a latest article -->
-                    {{ else }}
-                        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-                    {{ end }}
+                {{ $latest := where .Site.RegularPages "Params.latest" "!=" nil | first 100 }}
+                {{ range sort $latest.ByDate.Reverse }}
+                <li><a href="{{ .RelPermalink }}">
+                   {{ .Title }} ({{ .Date.Format "2006/1/2 03:04" }})
+                </a></li>
                 {{ end }}
             </ul>
         </div>
@@ -21,11 +19,9 @@
         <div class="popular">
             <h2>人気記事</h2>
             <ul>
-                {{ $popular := where .Site.RegularPages "Params.popular" "!=" nil | first 50 }}
-                {{ range $popular }}
-                    {{ if and (isset .Params "popular") (eq .Params.popular true) }}
-                        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-                    {{ end }}
+                {{ $popular := where .Site.RegularPages "Params.popular" "!=" nil | first 100 }}
+                {{ range sort $popular }}
+                <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                 {{ end }}
             </ul>
         </div>

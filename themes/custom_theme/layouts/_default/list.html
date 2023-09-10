@@ -1,13 +1,37 @@
 {{ partial "header.html" . }}
 {{ partial "topics.html" . }}
 {{ partial "sub.html" . }}
+
+
+<!-- <div class="scroll-box" style="width: auto;">
+    {{ range sort .Site.RegularPages.ByDate.Reverse }}
+    <ul>
+    <li>
+        <a href="{{ .RelPermalink }}"> {{ .Date.Format "2006-01-02 03:04:05" }} / {{ .LinkTitle }} </a>
+    </li>
+    </ul>
+    {{ end }}
+</div> -->
+
 <div class="container">
 <div class="container-main">
 <main class="list">
 {{ $pages := .Pages }}
 {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
 {{ $paginator := .Paginate (where $pages "Section" "!=" "") }}
-{{ range $paginator.Pages }}
+
+{{ $sortParam := .Params.sort }}
+
+{{ $range := $paginator.Pages.ByDate.Reverse }}
+{{ if eq $sortParam "latest" }}
+    {{ $range = $paginator.Pages.ByDate.Reverse }}
+{{ else if eq $sortParam "popular" }}
+    {{ $range = $paginator.Pages.ByTitle }}
+{{ else }}
+    {{ $range = $paginator.Pages.ByWeight }}
+{{ end }}
+
+{{ range $range.ByDate.Reverse }}
 <section class="article-list">
 <div class="article-list-item-head">
     <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
@@ -63,6 +87,7 @@
 </div>
 </div>
 </section>
+
 {{ end }}
 </main>
 
