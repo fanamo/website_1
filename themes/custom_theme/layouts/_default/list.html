@@ -77,10 +77,10 @@
     {{ end }}
 </div> -->
 <div class="tags">
-    {{ with .Params.tags }}
+    {{ with .Params.encoded_tags }}
     <ul>
         {{ range . }}
-        <li><a href="{{ printf "/tags/%s" . | urlize }}">{{ . }}</a></li>
+        <li><a href="{{ printf "/encoded_tags/" . | urlize }}">{{ . }}</a></li>
         {{ end }}
     </ul>
     {{ end }}
