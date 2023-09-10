@@ -427,7 +427,7 @@ def main():
     parser.add_argument("-o", "--output_dir", nargs="?", default="content/post", help="Output directory for Hugo posts")
     parser.add_argument("--news_date", default=datetime.now().strftime('%Y-%m-%dT%H:%M:%S%z'), help="News date")
     parser.add_argument("-l", "--limit", type=int, default=1, help="Limit the number of articles to process")
-    parser.add_argument("-sl", "--site_limit", type=int, default=1, help="[WIP] Limit of the number of websites to process")
+    parser.add_argument("-sl", "--site_limit", type=int, default=1, help="Limit of the number of websites to process")
     parser.add_argument("-r", "--random", action="store_true", help="Get random site order")
     parser.add_argument("-s", "--shuffle", action="store_true", help="[WIP] Shuffle output articles order")
     parser.usage = f"""
@@ -443,35 +443,34 @@ def main():
     args = parser.parse_args()
 
     rss_urls = {
-        'newmatosoku': 'https://newmatosoku.com/feed/youtuber/rss2.xml'
     }
-
-    limit = 1
-
-    if args.limit:
-        limit = args.limit
 
     if args.input_file:
         rss_df = Interface.read_file(args.input_file)
         df = rss_df['items']
 
         for item in df:
-            rss_urls[item["name"]] = item["feed_url"][0] # TODO: multi feed for 1 name
-
-            # if args.limit:
-                # rss_urls["limit"] = args.limit
-            # else:
-            #     rss_urls["limit"]  = item["limit"]
-
-
-    if args.shuffle:
-        pass
+            site_name = item["name"]
+            rss_url = item["feed_url"][0]  # TODO: multi feed for 1 name
+            rss_urls[site_name] = rss_url
 
     if args.random:
         rss_urls = random_sort_dict(rss_urls)
 
-        for key, value in rss_urls.items():
-            print(f"{key}: {value}")
+    if args.shuffle:
+        pass
+
+    if args.site_limit:
+        rss_urls = {k: v for k, v in list(rss_urls.items())[:args.site_limit]}
+
+    print(rss_urls)
+
+    for key, value in rss_urls.items():
+        print(f"{key}: {value}")
+
+    limit = 1
+    if args.limit:
+        limit = args.limit
 
     os.makedirs(args.output_dir, exist_ok=True)
 
