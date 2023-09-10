@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://fanamo.github.io/website_1"
 title = "ファル速"
 theme = "custom_theme"
 googleAnalytics = ""
@@ -10,13 +10,14 @@ hasCJKLanguage = true
 enableEmoji = true
 paginate = 24
 enableGitInfo = true
+# googleAnalytics = "G-12345ABCDE"
 
 [permalinks]
 post = "/post/:year/:month/:day/:slug/"
 
 [params]
 description = "A website built through Hugo and blogdown."
-footer = "&copy; [Falcon]() 2023 | [利用規約](/terms/) | [サイトポリシー](/site_policy/) | [プライバシーポリシー](/privacy_policy/) | [広告掲載](/adv/) "
+footer = "&copy; [Falcon]() 2023 | [利用規約](https://fanamo.github.io/website_1/terms/) | [サイトポリシー](https://fanamo.github.io/website_1/site_policy/) | [プライバシーポリシー](https://fanamo.github.io/website_1/privacy_policy/) | [広告掲載](https://fanamo.github.io/website_1/adv/) "
 summary_length = 300
 logo = "/static/images/logo.svg"
 icon = 'pdf'
