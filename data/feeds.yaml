@@ -134,14 +134,6 @@ items:
   limit: 1
   feed_url:
   - https://kasegeru.blog.jp/atom.xml
-- name: doorblog
-  url: http://totalwar.doorblog.jp
-  categories: エンタメ
-  tags: []
-  locale: ja-jp
-  limit: 1
-  feed_url:
-  - http://totalwar.doorblog.jp/atom.xml
 - name: 2fg
   url: http://2fg.blog.jp
   categories: エンタメ
