@@ -2,12 +2,11 @@ name: Create files, Push to repo
 
 on:
   schedule:
-    - cron: '* 0/5 0/1 ? * 1/1 *'
-    # - cron: '*/5 6-7,12-13,18-19 * * 0-7' # per 5min 6:00-7, 12:00-13, 18:00-19
-    # - cron: '0 12 * * *' # per day 12:00
-    # - cron: '0 * * * *' # per hour 0min
-    # - cron: '*/5 * * * *' # per min 5min
-    # - cron: '*/5 * * * * *' # per sec 5sec
+    # - cron: '*/5 6-7,12-13,18-19 * * 0-7' # every 5min 6:00-7, 12:00-13, 18:00-19
+    # - cron: '0 12 * * *' # every day 12:00
+    # - cron: '0 * * * *' # every hour 0min
+    - cron: '*/5 * * * *' # every 5min
+    # - cron: '*/5 * * * * *' # every sec 5sec
   workflow_dispatch:
 
 
