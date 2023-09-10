@@ -1,594 +1,496 @@
 items:
-- categories: エンタメ
+- name: hamusoku
+  url: http://hamusoku.com
+  categories: エンタメ
+  tags: []
+  locale: ja-jp
+  limit: 1
   feed_url:
   - https://hamusoku.com/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: hamusoku
+- name: dqnplus
+  url: http://blog.livedoor.jp/dqnplus
+  categories: エンタメ
   tags: []
-  url: http://hamusoku.com
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - http://blog.livedoor.jp/staff-smartphone_help/index.rdf
-  limit: 1
-  locale: ja-jp
-  name: dqnplus
+- name: news23vip
+  url: http://blog.livedoor.jp/news23vip
+  categories: エンタメ
   tags: []
-  url: http://blog.livedoor.jp/dqnplus
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - http://blog.livedoor.jp/news23vip/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: news23vip
+- name: kinisoku
+  url: http://blog.livedoor.jp/kinisoku
+  categories: エンタメ
   tags: []
-  url: http://blog.livedoor.jp/news23vip
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - http://blog.livedoor.jp/kinisoku/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: kinisoku
+- name: bipblog
+  url: http://bipblog.com
+  categories: エンタメ
   tags: []
-  url: http://blog.livedoor.jp/kinisoku
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - http://bipblog.com/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: bipblog
+- name: alfalfalfa
+  url: http://alfalfalfa.com
+  categories: エンタメ
   tags: []
-  url: http://bipblog.com
-- categories: エンタメ
-  feed_url:
-  - http://kanasoku.info/atom.xml
-  limit: 1
   locale: ja-jp
-  name: kanasoku
-  tags: []
-  url: http://kanasoku.info
-- categories: エンタメ
+  limit: 1
   feed_url:
   - https://alfalfalfa.com/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: alfalfalfa
+- name: himasoku
+  url: http://himasoku.com
+  categories: エンタメ
   tags: []
-  url: http://alfalfalfa.com
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - http://himasoku.com/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: himasoku
+- name: michaelsan
+  url: http://michaelsan.livedoor.biz
+  categories: エンタメ
   tags: []
-  url: http://himasoku.com
-- categories: エンタメ
-  feed_url:
-  - http://news.2chblog.jp/atom.xml
-  limit: 1
   locale: ja-jp
-  name: 2chblog
-  tags: []
-  url: http://news.2chblog.jp
-- categories: エンタメ
-  feed_url:
-  - http://chaos2ch.com/atom.xml
   limit: 1
-  locale: ja-jp
-  name: chaos2ch
-  tags: []
-  url: http://chaos2ch.com
-- categories: エンタメ
   feed_url:
   - http://michaelsan.livedoor.biz/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: michaelsan
+- name: blog117
+  url: http://workingnews.blog117.fc2.com/?xml
+  categories: エンタメ
   tags: []
-  url: http://michaelsan.livedoor.biz
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - http://workingnews.blog117.fc2.com/?xml
-  limit: 1
-  locale: ja-jp
-  name: workingnews
+- name: nwknews
+  url: http://blog.livedoor.jp/nwknews
+  categories: エンタメ
   tags: []
-  url: http://workingnews.blog117.fc2.com/?xml
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - http://blog.livedoor.jp/nwknews/atom.xml
-  - http://blog.livedoor.jp/staff-smartphone_help/index.rdf
-  limit: 1
-  locale: ja-jp
-  name: nwknews
+- name: onecall2ch
+  url: http://onecall2ch.com
+  categories: エンタメ
   tags: []
-  url: http://blog.livedoor.jp/nwknews
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - http://onecall2ch.com/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: onecall2ch
+- name: jin115
+  url: http://jin115.com
+  categories: エンタメ
   tags: []
-  url: http://onecall2ch.com
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - http://jin115.com/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: jin115
+- name: burusoku-vip
+  url: http://burusoku-vip.com
+  categories: エンタメ
   tags: []
-  url: http://jin115.com
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - http://burusoku-vip.com/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: burusoku-vip
+- name: rbkyn844
+  url: http://blog.livedoor.jp/rbkyn844
+  categories: エンタメ
   tags: []
-  url: http://burusoku-vip.com
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - http://blog.livedoor.jp/rbkyn844/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: rbkyn844
+- name: world-fusigi
+  url: http://world-fusigi.net
+  categories: エンタメ
   tags: []
-  url: http://blog.livedoor.jp/rbkyn844
-- categories: エンタメ
-  feed_url:
-  - http://otanew.jp/atom.xml
-  limit: 1
   locale: ja-jp
-  name: otanew
-  tags: []
-  url: http://otanew.jp
-- categories: エンタメ
+  limit: 1
   feed_url:
   - http://world-fusigi.net/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: world-fusigi
+- name: rabitsokuhou
+  url: http://rabitsokuhou.2chblog.jp
+  categories: エンタメ
   tags: []
-  url: http://world-fusigi.net
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - http://rabitsokuhou.2chblog.jp/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: rabitsokuhou
+  url: http://mofful.livedoor.blog
+  categories: エンタメ
   tags: []
-  url: http://rabitsokuhou.2chblog.jp
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - http://mofful.livedoor.blog/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: mofful
+- name: kasegeru
+  url: https://kasegeru.blog.jp
+  categories: エンタメ
   tags: []
-  url: http://mofful.livedoor.blog
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - https://kasegeru.blog.jp/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: kasegeru
+- name: doorblog
+  url: http://totalwar.doorblog.jp
+  categories: エンタメ
   tags: []
-  url: https://kasegeru.blog.jp
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - http://totalwar.doorblog.jp/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: totalwar
-  tags: []
-  url: http://totalwar.doorblog.jp
-- categories: エンタメ
-  feed_url:
-  - http://c.blog.jp/index.rdf
-  limit: 1
-  locale: ja-jp
-  name: 2fg
-  tags: []
+- name: 2fg
   url: http://2fg.blog.jp
-- categories: エンタメ
+  categories: エンタメ
+  tags: []
+  locale: ja-jp
+  limit: 1
+  feed_url:
+  - http://2fg.blog.jp/index.rdf
+  - http://2fg.blog.jp/atom.xml
+- name: kankeinai
+  url: http://kankeinai.blog.jp
+  categories: エンタメ
+  tags: []
+  locale: ja-jp
+  limit: 1
   feed_url:
   - http://kankeinai.blog.jp/index.rdf
-  limit: 1
-  locale: ja-jp
-  name: kankeinai
+  - http://kankeinai.blog.jp/atom.xml
+  - http://kankeinai.blog.jp/archives/cat_1207221.xml
+  - http://kankeinai.blog.jp/archives/cat_1209359.xml
+  - http://kankeinai.blog.jp/archives/cat_1218829.xml
+  - http://kankeinai.blog.jp/archives/cat_1224295.xml
+  - http://kankeinai.blog.jp/archives/cat_1267860.xml
+  - http://kankeinai.blog.jp/archives/cat_173451.xml
+  - http://kankeinai.blog.jp/archives/cat_173452.xml
+  - http://kankeinai.blog.jp/archives/cat_703783.xml
+  - http://kankeinai.blog.jp/archives/cat_763215.xml
+- name: lifehack2ch
+  url: http://lifehack2ch.livedoor.biz
+  categories: エンタメ
   tags: []
-  url: http://kankeinai.blog.jp
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - http://lifehack2ch.livedoor.biz/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: lifehack2ch
+  - http://lifehack2ch.livedoor.biz/index.rdf
+- name: idobata-kaigis
+  url: https://idobata-kaigis.com
+  categories: エンタメ
   tags: []
-  url: http://lifehack2ch.livedoor.biz
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - https://idobata-kaigis.com/rssfeed/feed.xml
-  limit: 1
-  locale: ja-jp
-  name: idobata-kaigis
+- name: katasumisokuhou
+  url: http://katasumisokuhou.blog.jp/
+  categories: エンタメ
   tags: []
-  url: https://idobata-kaigis.com
-- categories: エンタメ
-  feed_url:
-  - https://bokumato.site/feed/
-  limit: 1
   locale: ja-jp
-  name: bokumato
-  tags: []
-  url: https://bokumato.site
-- categories: エンタメ
+  limit: 1
   feed_url:
   - http://katasumisokuhou.blog.jp/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: katasumisokuhou
+  - http://katasumisokuhou.blog.jp/index.rdf
+  - https://fuwa2vip.blog.fc2.com/?xml
+- name: amaebi
+  url: http://amaebi.co/
+  categories: エンタメ
   tags: []
-  url: http://katasumisokuhou.blog.jp/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - http://amaebi.co/index.rdf
-  limit: 1
-  locale: ja-jp
-  name: amaebi
+- name: dechisoku
+  url: http://dechisoku.com/
+  categories: エンタメ
   tags: []
-  url: http://amaebi.co/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - http://dechisoku.com/index.rdf
-  limit: 1
-  locale: ja-jp
-  name: dechisoku
+  - http://dechisoku.com/index20.rdf
+- name: moe-vip
+  url: http://www.moe-vip.com/
+  categories: エンタメ
   tags: []
-  url: http://dechisoku.com/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - http://www.moe-vip.com/index.rdf
-  limit: 1
-  locale: ja-jp
-  name: moe-vip
+- name: mofful
+  url: http://mofful.livedoor.blog/
+  categories: エンタメ
   tags: []
-  url: http://www.moe-vip.com/
-- categories: エンタメ
-  feed_url:
-  - https://nandemoiiyoch.com/feed/atom/
-  limit: 1
   locale: ja-jp
-  name: nandemoiiyoch
-  tags: []
-  url: https://nandemoiiyoch.com/
-- categories: エンタメ
+  limit: 1
   feed_url:
   - http://mofful.livedoor.blog/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: mofful
+- name: unkochan893
+  url: https://unkochan893.com/
+  categories: エンタメ
   tags: []
-  url: http://mofful.livedoor.blog/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - http://matomery.mengine.jp/feed/youtube.xml
-  limit: 1
-  locale: ja-jp
-  name: unkochan893
+- name: world-study
+  url: https://world-study.jp/
+  categories: エンタメ
   tags: []
-  url: https://unkochan893.com/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - https://world-study.jp/feed
-  limit: 1
-  locale: ja-jp
-  name: world-study
+- name: hagelicious
+  url: https://hagelicious.com/
+  categories: エンタメ
   tags: []
-  url: https://world-study.jp/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - https://hagelicious.com/feed/
-  limit: 1
-  locale: ja-jp
-  name: hagelicious
+- name: coinmatome
+  url: https://coinmatome.com/
+  categories: エンタメ
   tags: []
-  url: https://hagelicious.com/
-- categories: エンタメ
-  feed_url:
-  - http://iroirokeiba.blog.fc2.com/?xml
-  limit: 1
   locale: ja-jp
-  name: iroirokeiba
-  tags: []
-  url: https://iroirokeiba.blog.fc2.com/
-- categories: エンタメ
-  feed_url:
-  - https://coolpan.net/feed/
   limit: 1
-  locale: ja-jp
-  name: coolpan
-  tags: []
-  url: https://coolpan.net/
-- categories: エンタメ
   feed_url:
   - https://coinmatome.com/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: coinmatome
+- name: geikuchi
+  url: http://geikuchi.com/
+  categories: エンタメ
   tags: []
-  url: https://coinmatome.com/
-- categories: エンタメ
-  feed_url:
-  - https://wanisokuhou.com/feed
-  limit: 1
   locale: ja-jp
-  name: wanisokuhou
-  tags: []
-  url: https://wanisokuhou.com/
-- categories: エンタメ
+  limit: 1
   feed_url:
   - https://geikuchi.com/feed
-  limit: 1
-  locale: ja-jp
-  name: geikuchi
+- name: trendcatch2020
+  url: http://trendcatch2020.com/
+  categories: エンタメ
   tags: []
-  url: http://geikuchi.com/
-- categories: エンタメ
-  feed_url:
-  - http://spportsnews.livedoor.blog/atom.xml
-  limit: 1
   locale: ja-jp
-  name: spportsnews
-  tags: []
-  url: http://spportsnews.livedoor.blog/
-- categories: エンタメ
+  limit: 1
   feed_url:
   - http://trendcatch2020.com/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: trendcatch2020
+- name: ocalt
+  url: http://ocalt.work/
+  categories: エンタメ
   tags: []
-  url: http://trendcatch2020.com/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - http://ocalt.work/index.rdf
-  limit: 1
-  locale: ja-jp
-  name: ocalt
+- name: itsys-tech
+  url: https://manga.itsys-tech.com/
+  categories: エンタメ
   tags: []
-  url: http://ocalt.work/
-- categories: エンタメ
-  feed_url:
-  - https://bokumato.site/feed/
-  limit: 1
   locale: ja-jp
-  name: bokumato
-  tags: []
-  url: https://bokumato.site/
-- categories: エンタメ
+  limit: 1
   feed_url:
   - https://manga.itsys-tech.com/index.xml
-  limit: 1
-  locale: ja-jp
-  name: manga
+- name: dreamlog
+  url: http://wolfchan.dreamlog.jp/
+  categories: エンタメ
   tags: []
-  url: https://manga.itsys-tech.com/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - https://wolfchan.dreamlog.jp/index.rdf
-  limit: 1
-  locale: ja-jp
-  name: wolfchan
+- name: amage-sokuhou
+  url: http://amage-sokuhou.xyz/
+  categories: エンタメ
   tags: []
-  url: http://wolfchan.dreamlog.jp/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - https://amage-sokuhou.xyz/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: amage-sokuhou
+- name: omosirogari
+  url: https://omosirogari.com/
+  categories: エンタメ
   tags: []
-  url: http://amage-sokuhou.xyz/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - https://omosirogari.com/index.rdf
-  limit: 1
-  locale: ja-jp
-  name: omosirogari
-  tags: []
-  url: https://omosirogari.com/
-- categories: エンタメ
-  feed_url:
-  - http://spomani.xyz/index.rdf
-  limit: 1
-  locale: ja-jp
-  name: spomani
-  tags: []
+- name: spomani
   url: http://spomani.xyz/
-- categories: エンタメ
+  categories: エンタメ
+  tags: []
+  locale: ja-jp
+  limit: 1
+  feed_url:
+  - http://spomani.xyz/index.rdfx
+- name: outdooor.blog
+  url: http://outdooor.blog.jp/
+  categories: エンタメ
+  tags: []
+  locale: ja-jp
+  limit: 1
   feed_url:
   - https://outdooor.blog.jp/index.rdf
-  limit: 1
-  locale: ja-jp
-  name: outdooor
+- name: matome-today
+  url: https://matome-today.blog.jp/
+  categories: エンタメ
   tags: []
-  url: http://outdooor.blog.jp/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - https://matome-today.blog.jp/index.rdf
-  limit: 1
-  locale: ja-jp
-  name: matome-today
+- name: syatikugamer
+  url: https://syatikugamer.com/
+  categories: エンタメ
   tags: []
-  url: https://matome-today.blog.jp/
-- categories: エンタメ
-  feed_url:
-  - https://kousokuvip.com/feed/
-  limit: 1
   locale: ja-jp
-  name: kousokuvip
-  tags: []
-  url: https://kousokuvip.com/
-- categories: エンタメ
+  limit: 1
   feed_url:
   - https://syatikugamer.com/index.rdf
-  limit: 1
-  locale: ja-jp
-  name: syatikugamer
+- name: news-matome
+  url: https://news-matome.sakura.ne.jp/
+  categories: エンタメ
   tags: []
-  url: https://syatikugamer.com/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - https://news-matome.sakura.ne.jp/feed
-  limit: 1
-  locale: ja-jp
-  name: news-matome
+- name: antena-iine
+  url: https://antena-iine.com/
+  categories: エンタメ
   tags: []
-  url: https://news-matome.sakura.ne.jp/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - https://antena-iine.com/feed
-  limit: 1
-  locale: ja-jp
-  name: antena-iine
+- name: neko-dan
+  url: https://neko-dan.net/
+  categories: エンタメ
   tags: []
-  url: https://antena-iine.com/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - https://neko-dan.net/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: neko-dan
+- name: xn--eckyfna8731bop8c
+  url: https://xn--eckyfna8731bop8c.jp/
+  categories: エンタメ
   tags: []
-  url: https://neko-dan.net/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - https://xn--eckyfna8731bop8c.jp/feed/
-  limit: 1
-  locale: ja-jp
-  name: xn--eckyfna8731bop8c
+- name: kimamagamematomemo
+  url: https://kimamagamematomemo.blog.jp/
+  categories: エンタメ
   tags: []
-  url: https://xn--eckyfna8731bop8c.jp/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - https://kimamagamematomemo.blog.jp/index.rdf
-  limit: 1
-  locale: ja-jp
-  name: kimamagamematomemo
+- name: happyshogi
+  url: https://happyshogi.xyz/
+  categories: エンタメ
   tags: []
-  url: https://kimamagamematomemo.blog.jp/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - https://happyshogi.xyz/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: happyshogi
+- name: nahrung
+  url: https://nahrung.blog.jp/
+  categories: エンタメ
   tags: []
-  url: https://happyshogi.xyz/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - https://nahrung.blog.jp/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: nahrung
+  - https://nahrung.blog.jp/index.rdf
+- name: omosiroisure
+  url: https://omosiroisure.blog.jp/
+  categories: エンタメ
   tags: []
-  url: https://nahrung.blog.jp/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - https://omosiroisure.blog.jp/index.rdf
-  limit: 1
-  locale: ja-jp
-  name: omosiroisure
+- name: kenkou-matome
+  url: https://kenkou-matome.com/diet
+  categories: エンタメ
   tags: []
-  url: https://omosiroisure.blog.jp/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - https://kenkou-matome.com/diet/?feed=rss2
-  limit: 1
-  locale: ja-jp
-  name: kenkou-matome
+- name: gamehaishin
+  url: https://gamehaishin.com/
+  categories: エンタメ
   tags: []
-  url: https://kenkou-matome.com/diet
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - https://gamehaishin.com/index.rdf
-  limit: 1
-  locale: ja-jp
-  name: gamehaishin
+- name: livedoor
+  url: http://blog.livedoor.jp/sksela/
+  categories: エンタメ
   tags: []
-  url: https://gamehaishin.com/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - http://blog.livedoor.jp/sksela/index.rdf
-  limit: 1
-  locale: ja-jp
-  name: sksela
+- name: oreryu-torimatomenyu-susokuhou
+  url: http://oreryu-torimatomenyu-susokuhou.com/
+  categories: エンタメ
   tags: []
-  url: http://blog.livedoor.jp/sksela/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - http://oreryu-torimatomenyu-susokuhou.com/index.rdf
-  limit: 1
-  locale: ja-jp
-  name: oreryu-torimatomenyu-susokuhou
+- name: nanyakoresokuhou
+  url: https://nanyakoresokuhou.com/
+  categories: エンタメ
   tags: []
-  url: http://oreryu-torimatomenyu-susokuhou.com/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - https://nanyakoresokuhou.com/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: nanyakoresokuhou
+- name: yabaibaiku
+  url: https://yabaibaiku.com/
+  categories: エンタメ
   tags: []
-  url: https://nanyakoresokuhou.com/
-- categories: エンタメ
-  feed_url:
-  - https://news-kankan3.com/index.rdf
-  limit: 1
   locale: ja-jp
-  name: news-kankan3
-  tags: []
-  url: http://news-kankan3.com/
-- categories: エンタメ
+  limit: 1
   feed_url:
   - https://yabaibaiku.com/feed/
-  limit: 1
-  locale: ja-jp
-  name: yabaibaiku
+- name: johou-tenkomori-ch
+  url: https://johou-tenkomori-ch.com/
+  categories: エンタメ
   tags: []
-  url: https://yabaibaiku.com/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - https://johou-tenkomori-ch.com/atom.xml
-  limit: 1
-  locale: ja-jp
-  name: johou-tenkomori-ch
+- name: zeromachi
+  url: https://zeromachi.com/
+  categories: エンタメ
   tags: []
-  url: https://johou-tenkomori-ch.com/
-- categories: エンタメ
+  locale: ja-jp
+  limit: 1
   feed_url:
   - https://zeromachi.com/?feed=rss2
-  limit: 1
-  locale: ja-jp
-  name: zeromachi
+- name: dousoku
+  url: https://www.dousoku.online/
+  categories: エンタメ
   tags: []
-  url: https://zeromachi.com/
-- categories: エンタメ
-  feed_url:
-  - https://nang.ranmato.com/comments/feed
-  limit: 1
   locale: ja-jp
-  name: ranmato
-  tags: []
-  url: https://nang.ranmato.com/
-- categories: エンタメ
+  limit: 1
   feed_url:
   - https://www.dousoku.online/?feed=rss2
-  limit: 1
-  locale: ja-jp
-  name: dousoku
-  tags: []
-  url: https://www.dousoku.online/
