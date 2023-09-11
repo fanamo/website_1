@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://fanamo.github.io/website_1"
 title = "ファル速"
 theme = "custom_theme"
 googleAnalytics = ""
@@ -19,7 +19,7 @@ post = "/post/:year/:month/:day/:slug/"
 [taxonomies]
 category = 'categories'
 series = 'series'
-tag = 'tags'
+tags = 'tags'
 
 [params]
 description = "A website built through Hugo and blogdown."
