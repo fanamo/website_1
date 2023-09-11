@@ -1,4 +1,17 @@
 <aside class="container-extra">
+    <div class="scroll-box-extra">
+        <div class="related">
+            {{ $related := .Site.RegularPages.Related . | first 5 }}
+            {{ with $related }}
+            <h3>関連記事</h3>
+            <ul>
+                {{ range $related }}
+                <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                {{ end }}
+            </ul>
+            {{ end }}
+        </div>
+    </div>
 </aside>
 
 <!-- <button class="scroll-button scroll-up-button">

@@ -1,6 +1,5 @@
 <div class="banner">
 
-
 {{ with .Site.Params.banner }}
 
 <div class="banner-img">
@@ -33095,3 +33094,17 @@
 {{ end }}</a>
 
 </div>
+
+
+<script>
+    const banner = document.querySelector('.banner');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 0) {
+            banner.classList.add('show');
+        }
+        else {
+            banner.classList.remove('show');
+        }
+    });
+</script>
