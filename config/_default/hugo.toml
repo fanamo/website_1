@@ -14,6 +14,12 @@ enableGitInfo = true
 
 [permalinks]
 post = "/post/:year/:month/:day/:slug/"
+# news = "/:sections/:year/:month/:day/:slug/"
+
+[taxonomies]
+category = 'categories'
+series = 'series'
+tag = 'tags'
 
 [params]
 description = "A website built through Hugo and blogdown."
