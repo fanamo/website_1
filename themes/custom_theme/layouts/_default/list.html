@@ -34,6 +34,19 @@
 {{ range $range.ByDate.Reverse }}
 <section class="article-list">
 <div class="article-list-item-head">
+
+    <div class="categories">
+        <ul>
+        {{ with .Params.categories }}
+        {{ range first 1 . }}
+        <li> <a href="{{ relURL (print "categories/" . | urlize) }}">{{ . }}</a> </li>
+        {{ end }}
+        {{ else }}
+        <a>{{ default "" .Site.Params.text.uncategorized }}</a>
+        {{ end }}
+        </ul>
+    </div>
+
     <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
 </div>
 <div class="thumbnail-wraper">
@@ -77,14 +90,16 @@
     {{ end }}
 </div> -->
 <div class="tags">
-    {{ with .Params.encoded_tags }}
+    {{ $tags := .Params.tags }}
+    {{ $count := 0 }}
     <ul>
-        {{ range . }}
-        <li><a href="{{ printf "/encoded_tags/" . | urlize }}">{{ . }}</a></li>
-        {{ end }}
-    </ul>
+    {{ range $index, $tag := $tags }}
+    {{ $encodedTagName := urlquery $tag }}
+    <li><a href="{{ relURL (print "tags/" $encodedTagName | safeURL ) }}">{{ $tag }}</a></li>
     {{ end }}
+    </ul>
 </div>
+
 </div>
 </section>
 

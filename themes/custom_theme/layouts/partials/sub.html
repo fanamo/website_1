@@ -1,17 +1,28 @@
 <aside class="container-sub">
+
+<div class="search-box">
+        <!-- <h2>検索</h2> -->
+    <div class="search-form">
+        <form action="https://duckduckgo.com/" method="get" target="_blank">
+        <input type="hidden" name="sites" value="{{ .Site.BaseURL }}">
+        <input type="text" name="q" placeholder="Search in DuckDuckGo">
+        <!-- <input type="submit" value="検索"> -->
+        </form>
+    </div>
+</div>
     <div class="scroll-box-sub">
         <h2>カテゴリ</h2>
         <div class="categories">
             <ul class="dropdown-menu">
             {{ $categories := .Site.Taxonomies.categories }}
-            {{ range $categoryName, $category := $categories }}
-                <li><a href="{{ printf "/categories/%s" $categoryName | urlize }}">{{ $categoryName }}</a></li>
+            {{ range $i, $e := $categories }}
+                <li><a href="{{ relURL (print "categories/" $i | urlize) }}">{{ $i }}</a></li>
             {{ end }}
             </ul>
         </div>
     </div>
     <div class="scroll-box-sub">
-        <h2>トレンド</h2>
+        <h2>タグ</h2>
         <div class="tags">
             <ul>
             {{ $tags := .Site.Taxonomies.tags }}
@@ -19,12 +30,11 @@
             {{ range $tagName, $tag := $tags }}
                 {{ if lt $count 50 }}
                 {{ $encodedTagName := urlquery $tagName }}
-                <li><a href="{{ printf "/tags/%s" $encodedTagName | safeURL }}">{{ $tagName }}</a></li>
+                <li><a href="{{ relURL (print "tags/" $encodedTagName | safeURL ) }}">{{ $tagName }}</a></li>
                 {{ end }}
                 {{ $count = add $count 1 }}
             {{ end }}
             </ul>
         </div>
     </div>
-
 </aside>
