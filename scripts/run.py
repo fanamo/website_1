@@ -186,7 +186,7 @@ def generate_hugo_posts(rss_urls, site_no, site_name, article_urls, output_dir, 
             body = safe_yaml(html.unescape(article['body']))
             full_url = safe_yaml(html.unescape(article['full_url']))
 
-            encoded_url = base64.b64encode(full_url.encode()).decode()
+            encoded_url = base64.urlsafe_b64encode(full_url.encode()).decode()
 
             if not article["tags"]:
                 print(article["tags"])
@@ -203,6 +203,11 @@ def generate_hugo_posts(rss_urls, site_no, site_name, article_urls, output_dir, 
                 }
 
                 tags = nlp_process(article["title"], filter_dict)
+                encoded_tags = []
+                for tag in tags:
+                    encoded_tags.append(base64.urlsafe_b64encode(tag.encode()).decode())
+
+
 
             with open(file_path, 'w', encoding='utf-8') as f:
             # with open(file_path, 'w', encoding='cp932') as f:
@@ -220,6 +225,7 @@ def generate_hugo_posts(rss_urls, site_no, site_name, article_urls, output_dir, 
                 # f.write(f'categories: {article["category_urls"]}\n')
                 f.write(f'categories: {article["categories"]}\n')
                 f.write(f'tags: {tags}\n')
+                f.write(f'encoded_tags: {encoded_tags}\n')
                 f.write(f'keywords: {article["keywords"]}\n')
                 f.write(f'thumbnail: "{article["image_url"]}"\n')
                 # f.write(f'images: "{images}"\n')

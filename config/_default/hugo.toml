@@ -1,14 +1,13 @@
-baseurl = "https://fanamo.github.io/website_1"
+baseurl = "https://fanamo.github.io/website_1/"
 title = "ファル速"
 theme = "custom_theme"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = [ "\\.Rmd$", "\\.Rmarkdown$", "_cache$",]
-preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
 hasCJKLanguage = true
 enableEmoji = true
-paginate = 24
+paginate = 12
 enableGitInfo = true
 # googleAnalytics = "G-12345ABCDE"
 
@@ -29,8 +28,8 @@ logo = "/static/images/logo.svg"
 icon = 'pdf'
 
 [params.text]
-back = "&larr; 戻る"
-edit = "進む &rarr;"
+# back = "&larr; 戻る"
+# edit = "進む &rarr;"
 truncated = "&hellip;"
 
 [markup.highlight]
